@@ -182,14 +182,14 @@
 	<chargeImage>weapons/shotgun_ion_2_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="chainlaser_1_charge" w="75" h="49" fw="25" fh="49">weapons/chainlaser_1_chargeglow_strip3.png</animSheet>
+<animSheet name="chainlaser_1_charge" w="75" h="49" fw="25" fh="49">weapons/laser/laser_chain_1_chargeglow_strip3.png</animSheet>
 <anim name="chainlaser_1_charge">
 	<sheet>chainlaser_1_charge</sheet>
 	<desc length="3" x="0" y="0"/>
 	<time>1.0</time>
 </anim>
 
-<animSheet name="chainlaser" w="275" h="49" fw="25" fh="49">weapons/chainlaser_1_strip11.png</animSheet>
+<animSheet name="chainlaser" w="275" h="49" fw="25" fh="49">weapons/laser/laser_chain_1_strip11.png</animSheet>
 <weaponAnim name="chainlaser">
 	<sheet>chainlaser</sheet>
 	<desc length="11" x="0" y="0"/>
@@ -200,59 +200,59 @@
 	<boost>chainlaser_1_charge</boost>
 </weaponAnim>
 
-<animSheet name="chainlaser_2_charge" w="160" h="67" fw="32" fh="67">weapons/chainlaser_2_chargeglow_strip5.png</animSheet>
-<anim name="chainlaser_2_charge">
-	<sheet>chainlaser_2_charge</sheet>
+<animSheet name="laser_chain_2_charge" w="160" h="67" fw="32" fh="67">weapons/laser/laser_chain_2_chargeglow_strip5.png</animSheet>
+<anim name="laser_chain_2_charge">
+	<sheet>laser_chain_2_charge</sheet>
 	<desc length="5" x="0" y="0"/>
 	<time>1.0</time>
 </anim>
 
-<animSheet name="chainlaser_2" w="320" h="67" fw="32" fh="67">weapons/chainlaser_2_strip10.png</animSheet>
-<weaponAnim name="chainlaser_2">
-	<sheet>chainlaser_2</sheet>
+<animSheet name="laser_chain_2" w="320" h="67" fw="32" fh="67">weapons/laser/laser_chain_2_strip10.png</animSheet>
+<weaponAnim name="laser_chain_2">
+	<sheet>laser_chain_2</sheet>
 	<desc length="10" x="0" y="0"/>
 	<chargedFrame>4</chargedFrame>
 	<fireFrame>5</fireFrame>
 	<firePoint  x="18" y="23"/>
 	<mountPoint x="4" y="49"/>
-	<boost>chainlaser_2_charge</boost>
+	<boost>laser_chain_2_charge</boost>
 </weaponAnim>
 
 
-<animSheet name="ion_chainlaser_1_charge" w="75" h="49" fw="25" fh="49">weapons/chain_ion_laser_1_chargeglow_strip3.png</animSheet>
-<anim name="ion_chainlaser_1_charge">
-	<sheet>ion_chainlaser_1_charge</sheet>
+<animSheet name="laser_chain_1_ion_charge" w="75" h="49" fw="25" fh="49">weapons/laser/laser_chain_1_ion_chargeglow_strip3.png</animSheet>
+<anim name="laser_chain_1_ion_charge">
+	<sheet>laser_chain_1_ion_charge</sheet>
 	<desc length="3" x="0" y="0"/>
 	<time>1.0</time>
 </anim>
 
-<animSheet name="ion_chainlaser" w="275" h="49" fw="25" fh="49">weapons/chain_ion_laser_1_strip11.png</animSheet>
-<weaponAnim name="ion_chainlaser">
-	<sheet>ion_chainlaser</sheet>
+<animSheet name="laser_chain_1_ion" w="275" h="49" fw="25" fh="49">weapons/laser_chain_1_ion_strip11.png</animSheet>
+<weaponAnim name="laser_chain_1_ion">
+	<sheet>laser_chain_1_ion</sheet>
 	<desc length="11" x="0" y="0"/>
 	<chargedFrame>4</chargedFrame>
 	<fireFrame>6</fireFrame>
 	<firePoint  x="16" y="16"/>
 	<mountPoint x="4" y="37"/>
-	<boost>ion_chainlaser_1_charge</boost>
+	<boost>laser_chain_1_ion_charge</boost>
 </weaponAnim>
 
-<animSheet name="ion_chainlaser_2_charge" w="160" h="67" fw="32" fh="67">weapons/chain_ion_laser_2_chargeglow_strip5.png</animSheet>
-<anim name="ion_chainlaser_2_charge">
-	<sheet>ion_chainlaser_2_charge</sheet>
+<animSheet name="laser_chain_2_ion_charge" w="160" h="67" fw="32" fh="67">weapons/laser_chain_2_ion_chargeglow_strip5.png</animSheet>
+<anim name="laser_chain_2_ion_charge">
+	<sheet>laser_chain_2_ion_charge</sheet>
 	<desc length="5" x="0" y="0"/>
 	<time>1.0</time>
 </anim>
 
-<animSheet name="ion_chainlaser_2" w="320" h="67" fw="32" fh="67">weapons/chain_ion_laser_2_strip10.png</animSheet>
-<weaponAnim name="ion_chainlaser_2">
-	<sheet>ion_chainlaser_2</sheet>
+<animSheet name="ion_laser_chain_2" w="320" h="67" fw="32" fh="67">weapons/chain_ion_laser_2_strip10.png</animSheet>
+<weaponAnim name="ion_laser_chain_2">
+	<sheet>ion_laser_chain_2</sheet>
 	<desc length="10" x="0" y="0"/>
 	<chargedFrame>4</chargedFrame>
 	<fireFrame>5</fireFrame>
 	<firePoint  x="18" y="23"/>
 	<mountPoint x="4" y="49"/>
-	<boost>ion_chainlaser_2_charge</boost>
+	<boost>ion_laser_chain_2_charge</boost>
 </weaponAnim>
 
 
