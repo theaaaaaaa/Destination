@@ -89,10 +89,6 @@
 	<name>LASER_ION_5</name>
 	<name>LASER_HEAVY_ION_1</name>
 	<name>LASER_HEAVY_ION_2</name>
-	<name>BEAM_1</name>
-	<name>BEAM_2</name>
-	<name>BOMB_1</name>
-	<name>ION_1</name>
 </blueprintList>
 
 <!--
@@ -280,12 +276,14 @@
 	<name>ION_1</name>
 	<name>ION_2</name>
 	<name>ION_4</name>
+	<name>PIERCE_ION_1</name>
+	<name>PIERCE_ION_2</name>
+	<name>PIERCE_ION_4</name>
 	<name>BOMB_ION</name>
 	<name>ION_STUN</name>
 	<name>BOMB_STUN</name>
 	<name>ION_CHARGEGUN</name>
 	<name>ION_CHAINGUN</name>
-	<name>ION_STUN</name>
 </blueprintList>
 
 <blueprintList name="WEAPONS_MISSILES"> <!-- for events -->

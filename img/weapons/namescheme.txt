@@ -1,0 +1,7 @@
+Naming scheme:
+
+1. Weapon type [laser, shotgun, heavy, beam, etc]
+2. Modifiers [amount of projectile types, 2, burst, etc]
+2. Secondary effects [laser + ion, flak + ion, etc]
+3. Shield pierce
+4. Stun, if any

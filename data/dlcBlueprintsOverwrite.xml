@@ -99,15 +99,12 @@ This doc is for alterate versions of the existing ships - outfitted with the new
 </blueprintList>
 
 <blueprintList name="OVERRIDE_WEAPONS_JELLY">
-	<name>LASER_HEAVY_1</name>
 	<name>BEAM_1</name>
 	<name>BEAM_2</name>
 	<name>BEAM_3</name>
 	<name>BEAM_LONG</name>
 	<name>BEAM_FIRE</name>
 	<name>BEAM_BIO</name>
-	<name>BOMB_FIRE</name>
-	<name>BOMB_BREACH</name>
 	<name>ION_1</name>
 	<name>ION_2</name>
 	<name>ION_4</name>
@@ -122,22 +119,12 @@ This doc is for alterate versions of the existing ships - outfitted with the new
 
 
 <blueprintList name="OVERRIDE_WEAPONS_ROCK">
-	<name>LASER_BURST_1</name>
-	<name>LASER_BURST_2_A</name>
-	<name>LASER_BURST_3</name>
-	<name>LASER_BURST_5</name>
-	<name>LASER_HEAVY_1</name>
-	<name>LASER_HEAVY_2</name>
 	<name>MISSILES_1</name>
 	<name>MISSILES_2</name>
 	<name>MISSILES_3</name>
 	<name>MISSILES_BREACH</name>
-	<name>BEAM_1</name>
-	<name>BEAM_2</name>
-	<name>BOMB_1</name>
-	<name>ION_2</name>
 
-	<!--<name>MISSILE_CHARGEGUN</name>-->
+	<name>MISSILE_CHARGEGUN</name>
 	<name>SHOTGUN</name>
 	<name>SHOTGUN_2</name>
 </blueprintList>
