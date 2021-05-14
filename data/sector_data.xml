@@ -636,7 +636,6 @@ HIDDEN SECTORS
 		<blueprint name="crystal" rarity="1"/>
 		<blueprint name="LASER_BURST_1" rarity="0"/>
 		<blueprint name="LASER_BURST_2" rarity="0"/>
-		<blueprint name="LASER_BURST_2_A" rarity="0"/>
 		<blueprint name="LASER_BURST_3" rarity="0"/>
 		<blueprint name="LASER_BURST_5" rarity="0"/>
 		<blueprint name="LASER_HEAVY_1" rarity="0"/>
@@ -661,9 +660,6 @@ HIDDEN SECTORS
 		<blueprint name="BOMB_FIRE" rarity="0"/>
 		<blueprint name="BOMB_ION" rarity="0"/>
 		<blueprint name="BOMB_HEAL" rarity="0"/>
-		<blueprint name="LASER_HULL_1" rarity="0"/>
-		<blueprint name="LASER_HULL_2" rarity="0"/>
-		<blueprint name="BEAM_HULL" rarity="0"/>
 		<blueprint name="MISSILES_HULL" rarity="0"/>
 		<blueprint name="BOMB_LOCK" rarity="3"/>
 		<blueprint name="CRYSTAL_BURST_1" rarity="1"/>

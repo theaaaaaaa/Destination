@@ -160,44 +160,44 @@
 	<mountPoint x="3" y="33"/>
 	<chargeImage>weapons/shotgun_2_glow.png</chargeImage>
 </weaponAnim>
-<animSheet name="ion_shotgun" w="296" h="51" fw="37" fh="51">weapons/shotgun_ion_strip8.png</animSheet>
-<weaponAnim name="ion_shotgun">
-	<sheet>ion_shotgun</sheet>
+<animSheet name="shotgun_ion" w="296" h="51" fw="37" fh="51">weapons/shotgun_ion_strip8.png</animSheet>
+<weaponAnim name="shotgun_ion">
+	<sheet>shotgun_ion</sheet>
 	<desc length="8" x="0" y="0"/>
 	<chargedFrame>1</chargedFrame>
 	<fireFrame>3</fireFrame>
 	<firePoint  x="12" y="22"/>
 	<mountPoint x="3" y="33"/>
-	<chargeImage>weapons/shotgun_ion_ glow.png</chargeImage>
+	<chargeImage>weapons/shotgun_ion_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="ion_shotgun_2" w="296" h="53" fw="37" fh="53">weapons/shotgun_ion_2_strip8.png</animSheet>
-<weaponAnim name="ion_shotgun_2">
-	<sheet>ion_shotgun_2</sheet>
+<animSheet name="shotgun_2_ion" w="296" h="53" fw="37" fh="53">weapons/shotgun_2_ion_strip8.png</animSheet>
+<weaponAnim name="shotgun_2_ion">
+	<sheet>shotgun_2_ion</sheet>
 	<desc length="8" x="0" y="0"/>
 	<chargedFrame>1</chargedFrame>
 	<fireFrame>3</fireFrame>
 	<firePoint  x="14" y="22"/>
 	<mountPoint x="3" y="33"/>
-	<chargeImage>weapons/shotgun_ion_2_glow.png</chargeImage>
+	<chargeImage>weapons/shotgun_2_ion_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="chainlaser_1_charge" w="75" h="49" fw="25" fh="49">weapons/laser/laser_chain_1_chargeglow_strip3.png</animSheet>
-<anim name="chainlaser_1_charge">
-	<sheet>chainlaser_1_charge</sheet>
+<animSheet name="laser_chain_1_charge" w="75" h="49" fw="25" fh="49">weapons/laser/laser_chain_1_chargeglow_strip3.png</animSheet>
+<anim name="laser_chain_1_charge">
+	<sheet>laser_chain_1_charge</sheet>
 	<desc length="3" x="0" y="0"/>
 	<time>1.0</time>
 </anim>
 
-<animSheet name="chainlaser" w="275" h="49" fw="25" fh="49">weapons/laser/laser_chain_1_strip11.png</animSheet>
-<weaponAnim name="chainlaser">
-	<sheet>chainlaser</sheet>
+<animSheet name="laser_chain_1" w="275" h="49" fw="25" fh="49">weapons/laser/laser_chain_1_strip11.png</animSheet>
+<weaponAnim name="laser_chain_1">
+	<sheet>laser_chain_1</sheet>
 	<desc length="11" x="0" y="0"/>
 	<chargedFrame>4</chargedFrame>
 	<fireFrame>6</fireFrame>
 	<firePoint  x="16" y="16"/>
 	<mountPoint x="4" y="37"/>
-	<boost>chainlaser_1_charge</boost>
+	<boost>laser_chain_1_charge</boost>
 </weaponAnim>
 
 <animSheet name="laser_chain_2_charge" w="160" h="67" fw="32" fh="67">weapons/laser/laser_chain_2_chargeglow_strip5.png</animSheet>
@@ -226,7 +226,7 @@
 	<time>1.0</time>
 </anim>
 
-<animSheet name="laser_chain_1_ion" w="275" h="49" fw="25" fh="49">weapons/laser_chain_1_ion_strip11.png</animSheet>
+<animSheet name="laser_chain_1_ion" w="275" h="49" fw="25" fh="49">weapons/laser/laser_chain_1_ion_strip11.png</animSheet>
 <weaponAnim name="laser_chain_1_ion">
 	<sheet>laser_chain_1_ion</sheet>
 	<desc length="11" x="0" y="0"/>
@@ -237,86 +237,45 @@
 	<boost>laser_chain_1_ion_charge</boost>
 </weaponAnim>
 
-<animSheet name="laser_chain_2_ion_charge" w="160" h="67" fw="32" fh="67">weapons/laser_chain_2_ion_chargeglow_strip5.png</animSheet>
+<animSheet name="laser_chain_2_ion_charge" w="160" h="67" fw="32" fh="67">weapons/laser/laser_chain_2_ion_chargeglow_strip5.png</animSheet>
 <anim name="laser_chain_2_ion_charge">
 	<sheet>laser_chain_2_ion_charge</sheet>
 	<desc length="5" x="0" y="0"/>
 	<time>1.0</time>
 </anim>
 
-<animSheet name="ion_laser_chain_2" w="320" h="67" fw="32" fh="67">weapons/chain_ion_laser_2_strip10.png</animSheet>
-<weaponAnim name="ion_laser_chain_2">
-	<sheet>ion_laser_chain_2</sheet>
+<animSheet name="laser_chain_2_ion" w="320" h="67" fw="32" fh="67">weapons/laser/laser_chain_2_ion_strip10.png</animSheet>
+<weaponAnim name="laser_chain_2_ion">
+	<sheet>laser_chain_2_ion</sheet>
 	<desc length="10" x="0" y="0"/>
 	<chargedFrame>4</chargedFrame>
 	<fireFrame>5</fireFrame>
 	<firePoint  x="18" y="23"/>
 	<mountPoint x="4" y="49"/>
-	<boost>ion_laser_chain_2_charge</boost>
+	<boost>laser_chain_2_ion_charge</boost>
 </weaponAnim>
 
 
 
-<animSheet name="ion_chaingun_charge" w="105" h="58" fw="35" fh="58">weapons/ion_chain_chargeglow.png</animSheet>
-<anim name="ion_chaingun_charge">
-	<sheet>ion_chaingun_charge</sheet>
+<animSheet name="ion_chain_charge" w="105" h="58" fw="35" fh="58">weapons/ion_chain_chargeglow.png</animSheet>
+<anim name="ion_chain_charge">
+	<sheet>ion_chain_charge</sheet>
 	<desc length="3" x="0" y="0"/>
 	<time>1.0</time>
 </anim>
 
 
-<animSheet name="ion_chaingun" w="280" h="58" fw="35" fh="58">weapons/ion_chain.png</animSheet>
-<weaponAnim name="ion_chaingun">
-	<sheet>ion_chaingun</sheet>
+<animSheet name="ion_chain" w="280" h="58" fw="35" fh="58">weapons/ion_chain.png</animSheet>
+<weaponAnim name="ion_chain">
+	<sheet>ion_chain</sheet>
 	<desc length="8" x="0" y="0"/>
 	<chargedFrame>1</chargedFrame>
 	<fireFrame>5</fireFrame>
 	<firePoint  x="17" y="17"/>
 	<mountPoint x="5" y="45"/>
 	<chargeImage>weapons/ion_chain_glow.png</chargeImage>
-	<boost>ion_chaingun_charge</boost>
+	<boost>ion_chain_charge</boost>
 </weaponAnim>
-
-
-
-<animSheet name="chargelaser_charge" w="54" h="49" fw="27" fh="49">weapons/laser_charger_charges.png</animSheet>
-
-<anim name="chargelaser_charge">
-	<sheet>chargelaser_charge</sheet>
-	<desc length="2" x="0" y="0"/>
-	<time>1.0</time>
-</anim>
-<animSheet name="chargelaser" w="324" h="49" fw="27" fh="49">weapons/laser_charger_base.png</animSheet>
-<weaponAnim name="chargelaser">
-	<sheet>chargelaser</sheet>
-	<desc length="12" x="0" y="0"/>
-	<chargedFrame>5</chargedFrame>
-	<fireFrame>6</fireFrame>
-	<firePoint  x="20" y="18" charge="5"/>
-	<mountPoint x="5" y="35"/>
-	<boost>chargelaser_charge</boost>
-</weaponAnim>
-
-
-
-<animSheet name="chargelaser2_charge" w="152" h="48" fw="38" fh="48">weapons/laser_charger2_charges.png</animSheet>
-<anim name="chargelaser2_charge">
-	<sheet>chargelaser2_charge</sheet>
-	<desc length="4" x="0" y="0"/>
-	<time>1.0</time>
-</anim>
-
-<animSheet name="chargelaser2" w="684" h="48" fw="38" fh="48">weapons/laser_charger2_base.png</animSheet>
-<weaponAnim name="chargelaser2">
-	<sheet>chargelaser2</sheet>
-	<desc length="18" x="0" y="0"/>
-	<chargedFrame>5</chargedFrame>
-	<fireFrame>6</fireFrame>
-	<firePoint  x="33" y="16" charge="6"/>
-	<mountPoint x="8" y="37"/>
-	<boost>chargelaser2_charge</boost>
-</weaponAnim>
-
 
 <animSheet name="chargemissile_charge" w="90" h="46" fw="30" fh="46">weapons/missile_charger_charges.png</animSheet>
 
@@ -356,21 +315,21 @@
  <chargeImage>weapons/ion_charger_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="ion_stun" w="240" h="45" fw="30" fh="45">weapons/ion_stun_strip8.png</animSheet>
-<weaponAnim name="ion_stun">
-	<sheet>ion_stun</sheet>
+<animSheet name="ion_1_stun" w="240" h="45" fw="30" fh="45">weapons/ion_1_stun_strip8.png</animSheet>
+<weaponAnim name="ion_1_stun">
+	<sheet>ion_1_stun</sheet>
 	<desc length="8" x="0" y="0"/>
 	<chargedFrame>1</chargedFrame>
 	<fireFrame>5</fireFrame>
 	<firePoint  x="15" y="12"/>
 	<mountPoint x="5" y="35"/>
-	<chargeImage>weapons/ion_stun_glow.png</chargeImage>
+	<chargeImage>weapons/ion_1_stun_glow.png</chargeImage>
 </weaponAnim>
 
 
-<animSheet name="ion_stun_shot" w="192" h="24" fw="24" fh="24">weapons/ion_stun_shot_strip8.png</animSheet>
-<anim name="ion_stun_shot">
-	<sheet>ion_stun_shot</sheet>
+<animSheet name="ion_1_stun_shot" w="192" h="24" fw="24" fh="24">weapons/ion_1_stun_shot_strip8.png</animSheet>
+<anim name="ion_1_stun_shot">
+	<sheet>ion_1_stun_shot</sheet>
 	<desc length="8" x="0" y="0"/>
 	<time>0.3</time>
 </anim>

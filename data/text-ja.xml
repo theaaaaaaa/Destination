@@ -5054,10 +5054,6 @@
 <text name="weapon_LASER_BURST_1_short" language="ja">標準レーザー</text>
 <text name="weapon_LASER_BURST_1_title" language="ja">防衛レーザー I型</text>
 <text name="weapon_LASER_BURST_1_tooltip" language="ja">ダメージ1のレーザーを1本発射。</text>
-<text name="weapon_LASER_BURST_2_A_desc" language="ja">地味だがきっちり仕事をこなす、シンプルな連射レーザー。</text>
-<text name="weapon_LASER_BURST_2_A_short" language="ja">BレーザーI</text>
-<text name="weapon_LASER_BURST_2_A_title" language="ja">バーストレーザー I型</text>
-<text name="weapon_LASER_BURST_2_A_tooltip" language="ja">ダメージ1のレーザーを2本発射。</text>
 <text name="weapon_LASER_BURST_2_desc" language="ja">威力の低い、標準的な2連装レーザー。資金力のない輸送船などによく用いられる。</text>
 <text name="weapon_LASER_BURST_2_short" language="ja">2連レーザー</text>
 <text name="weapon_LASER_BURST_2_title" language="ja">デュアルレーザー</text>
@@ -5070,26 +5066,14 @@
 <text name="weapon_LASER_BURST_5_short" language="ja">BレーザーIII</text>
 <text name="weapon_LASER_BURST_5_title" language="ja">バーストレーザー III型</text>
 <text name="weapon_LASER_BURST_5_tooltip" language="ja">ダメージ1のレーザーを5本発射。</text>
-<text name="weapon_LASER_CHAINGUN_2_desc" language="ja">暖まるのが遅いレーザー砲。発射するたびにチャージが速まり、最終的には大量のシールドを一度に剥がせるようになる。</text>
-<text name="weapon_LASER_CHAINGUN_2_short" language="ja">バルカン砲</text>
-<text name="weapon_LASER_CHAINGUN_2_title" language="ja">チェインバルカン</text>
-<text name="weapon_LASER_CHAINGUN_2_tooltip" language="ja">撃つたびにチャージが高速化。</text>
-<text name="weapon_LASER_CHAINGUN_desc" language="ja">発射するたびに冷却時間が短縮する、2連装レーザー。3発撃ったあとは最短7秒でチャージ可。</text>
-<text name="weapon_LASER_CHAINGUN_short" language="ja">連鎖</text>
-<text name="weapon_LASER_CHAINGUN_title" language="ja">チェインバーストレーザー</text>
-<text name="weapon_LASER_CHAINGUN_tooltip" language="ja">ダメージ1のレーザーを2本発射。撃つたびにチャージが高速化。</text>
-<text name="weapon_LASER_CHARGEGUN_2_desc" language="ja">複数回チャージして発射数を増やせる、レーザー砲。</text>
-<text name="weapon_LASER_CHARGEGUN_2_short" language="ja">充填II</text>
-<text name="weapon_LASER_CHARGEGUN_2_title" language="ja">チャージレーザー II型</text>
-<text name="weapon_LASER_CHARGEGUN_2_tooltip" language="ja">チャージするたび、発射数が増える（最大4）。</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_desc" language="ja">2回チャージして発射数を増やせる、レーザー兵器。必要動力1の改良版。</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_short" language="ja">充填</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_title" language="ja">チャージレーザー</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_tooltip" language="ja">チャージするたび、発射数が増える（最大2）。</text>
-<text name="weapon_LASER_CHARGEGUN_desc" language="ja">2回チャージして発射数を増やせる、レーザー兵器。</text>
-<text name="weapon_LASER_CHARGEGUN_short" language="ja">充填</text>
-<text name="weapon_LASER_CHARGEGUN_title" language="ja">チャージレーザー</text>
-<text name="weapon_LASER_CHARGEGUN_tooltip" language="ja">チャージするたび、発射数が増える（最大2）。</text>
+<text name="weapon_LASER_CHAIN_2_desc" language="ja">暖まるのが遅いレーザー砲。発射するたびにチャージが速まり、最終的には大量のシールドを一度に剥がせるようになる。</text>
+<text name="weapon_LASER_CHAIN_2_short" language="ja">バルカン砲</text>
+<text name="weapon_LASER_CHAIN_2_title" language="ja">チェインバルカン</text>
+<text name="weapon_LASER_CHAIN_2_tooltip" language="ja">撃つたびにチャージが高速化。</text>
+<text name="weapon_LASER_CHAIN_1_desc" language="ja">発射するたびに冷却時間が短縮する、2連装レーザー。3発撃ったあとは最短7秒でチャージ可。</text>
+<text name="weapon_LASER_CHAIN_1_short" language="ja">連鎖</text>
+<text name="weapon_LASER_CHAIN_1_title" language="ja">チェインバーストレーザー</text>
+<text name="weapon_LASER_CHAIN_1_tooltip" language="ja">ダメージ1のレーザーを2本発射。撃つたびにチャージが高速化。</text>
 <text name="weapon_LASER_HEAVY_1_SP_desc" language="ja">小型のバーストレーザーよりも破壊力が増した、重レーザー砲。シールドを1枚貫通する改良版。</text>
 <text name="weapon_LASER_HEAVY_1_SP_short" language="ja">重貫通I</text>
 <text name="weapon_LASER_HEAVY_1_SP_title" language="ja">重貫通レーザー I型</text>

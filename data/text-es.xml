@@ -5054,10 +5054,6 @@
 <text name="weapon_LASER_BURST_1_short" language="es">Láser básico</text>
 <text name="weapon_LASER_BURST_1_title" language="es">Láser defensivo v1</text>
 <text name="weapon_LASER_BURST_1_tooltip" language="es">Solo un disparo y 1 de daño por disparo.</text>
-<text name="weapon_LASER_BURST_2_A_desc" language="es">Este láser de repetición sencillo no es lo más potente del mundo, pero te hace el servicio.</text>
-<text name="weapon_LASER_BURST_2_A_short" language="es">Lás. rep. 1</text>
-<text name="weapon_LASER_BURST_2_A_title" language="es">Láser de repetición v1</text>
-<text name="weapon_LASER_BURST_2_A_tooltip" language="es">Dispara 2 láseres que hacen 1 de daño cada uno.</text>
 <text name="weapon_LASER_BURST_2_desc" language="es">Láseres básicos de baja potencia duales. Suelen llevarlos transportes que no pueden permitirse otra cosa.</text>
 <text name="weapon_LASER_BURST_2_short" language="es">Láser dual</text>
 <text name="weapon_LASER_BURST_2_title" language="es">Láser de disparo dual</text>
@@ -5070,26 +5066,14 @@
 <text name="weapon_LASER_BURST_5_short" language="es">Lás. rep. 3</text>
 <text name="weapon_LASER_BURST_5_title" language="es">Láser de repetición v3</text>
 <text name="weapon_LASER_BURST_5_tooltip" language="es">Dispara 5 láseres que hacen 1 de daño cada uno.</text>
-<text name="weapon_LASER_CHAINGUN_2_desc" language="es">Esta arma láser tarda mucho en activarse. Cada vez que dispara, se reduce su recarga. Con el tiempo, puede tirar todos los escudos que se encuentre.</text>
-<text name="weapon_LASER_CHAINGUN_2_short" language="es">Kalash</text>
-<text name="weapon_LASER_CHAINGUN_2_title" language="es">Kalash en cadena</text>
-<text name="weapon_LASER_CHAINGUN_2_tooltip" language="es">La recarga se reduce cuanto más dispara.</text>
-<text name="weapon_LASER_CHAINGUN_desc" language="es">La recarga de este láser dual va reduciéndose cuanto más dispara. Tras 3 andanadas, solo necesita 7 segundos de recarga.</text>
-<text name="weapon_LASER_CHAINGUN_short" language="es">Lás. cad.</text>
-<text name="weapon_LASER_CHAINGUN_title" language="es">Lás. de repetición en cadena</text>
-<text name="weapon_LASER_CHAINGUN_tooltip" language="es">Dispara dos láseres que hacen 1 de daño cada uno. La recarga se reduce cuanto más dispara.</text>
-<text name="weapon_LASER_CHARGEGUN_2_desc" language="es">Esta arma láser puede cargarse varias veces para generar proyectiles adicionales.</text>
-<text name="weapon_LASER_CHARGEGUN_2_short" language="es">C. lás. 2</text>
-<text name="weapon_LASER_CHARGEGUN_2_title" language="es">Cargador láser v2</text>
-<text name="weapon_LASER_CHARGEGUN_2_tooltip" language="es">Hace más disparos cuanto más se carga, hasta un máximo de 4.</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_desc" language="es">Esta arma láser puede cargarse dos veces para generar un proyectil adicional. Esta versión mejorada solo emplea 1 de energía.</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_short" language="es">Car. lás.</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_title" language="es">Cargador láser</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_tooltip" language="es">Hace más disparos cuanto más se carga, hasta un máximo de 2.</text>
-<text name="weapon_LASER_CHARGEGUN_desc" language="es">Esta arma láser puede cargarse dos veces para generar un proyectil adicional.</text>
-<text name="weapon_LASER_CHARGEGUN_short" language="es">Car. lás.</text>
-<text name="weapon_LASER_CHARGEGUN_title" language="es">Cargador láser</text>
-<text name="weapon_LASER_CHARGEGUN_tooltip" language="es">Hace más disparos cuanto más se carga, hasta un máximo de 2.</text>
+<text name="weapon_LASER_CHAIN_2_desc" language="es">Esta arma láser tarda mucho en activarse. Cada vez que dispara, se reduce su recarga. Con el tiempo, puede tirar todos los escudos que se encuentre.</text>
+<text name="weapon_LASER_CHAIN_2_short" language="es">Kalash</text>
+<text name="weapon_LASER_CHAIN_2_title" language="es">Kalash en cadena</text>
+<text name="weapon_LASER_CHAIN_2_tooltip" language="es">La recarga se reduce cuanto más dispara.</text>
+<text name="weapon_LASER_CHAIN_1_desc" language="es">La recarga de este láser dual va reduciéndose cuanto más dispara. Tras 3 andanadas, solo necesita 7 segundos de recarga.</text>
+<text name="weapon_LASER_CHAIN_1_short" language="es">Lás. cad.</text>
+<text name="weapon_LASER_CHAIN_1_title" language="es">Lás. de repetición en cadena</text>
+<text name="weapon_LASER_CHAIN_1_tooltip" language="es">Dispara dos láseres que hacen 1 de daño cada uno. La recarga se reduce cuanto más dispara.</text>
 <text name="weapon_LASER_HEAVY_1_SP_desc" language="es">Los láseres pesados pueden ser mucho más potentes que sus homólogos más pequeños de repetición. Esta versión modificada atraviesa 1 escudo.</text>
 <text name="weapon_LASER_HEAVY_1_SP_short" language="es">Lás. per. 1</text>
 <text name="weapon_LASER_HEAVY_1_SP_title" language="es">Láser pes. perforante v1</text>

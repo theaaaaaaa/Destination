@@ -986,6 +986,8 @@
 
 <text name="tip_crew">Tip: Crew Drones require 1 drone to deploy, but will not need to be deployed again until destroyed. They stay on ship and help your crew as long as they are powered.</text>
 
+<text name="tip_effect">Tip: Effect weapons aren't actually meant to be used as weapons. They're meant to be applied to other weapons to enhance them.</text>
+
 <text name="tip_repair_bomb">Tip: Bombs never miss when targeting your own ship, so this bomb is a guaranteed full heal for any of your systems.</text>
 <text name="tip_heal_bomb">Tip: Remember, bombs can miss the enemy ship so don't count on this as a guaranteed heal for your boarders!</text>
 <text name="tip_fire_beam">Tip: This Fire Beam does no hull damage, so it cannot pierce any amount of shields.</text>

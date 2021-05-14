@@ -3,82 +3,77 @@
 <FTL>
 
 <!-- fire stuff -->
-<animSheet name="fire_large" w="256" h="32" fw="32" fh="32">effects/fire_L1_strip8.png</animSheet>
-<animSheet name="fire_small" w="256" h="32" fw="32" fh="32">effects/fire_S1_strip8.png</animSheet>
-
-<anim name="fire_large">
-	<sheet>fire_large</sheet>
-	<desc length="8" x="0" y="0"/>
-	<time>1.0</time>
-</anim>
-
-<anim name="fire_small">
-	<sheet>fire_small</sheet>
-	<desc length="8" x="0" y="0"/>
-	<time>1.0</time>
-</anim>
-
+	<animSheet name="fire_large" w="256" h="32" fw="32" fh="32">effects/fire_L1_strip8.png</animSheet>
+	<animSheet name="fire_small" w="256" h="32" fw="32" fh="32">effects/fire_S1_strip8.png</animSheet>
+	
+	<anim name="fire_large">
+		<sheet>fire_large</sheet>
+		<desc length="8" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	
+	<anim name="fire_small">
+		<sheet>fire_small</sheet>
+		<desc length="8" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	
 <!-- breach stuff -->
-<animSheet name="breach" w="154" h="19" fw="22" fh="19">effects/breach.png</animSheet>
-
-<anim name="breach">
-	<sheet>breach</sheet>
-	<desc length="7" x="0" y="0"/>
-	<time>1.0</time>
-</anim>
-
+	<animSheet name="breach" w="154" h="19" fw="22" fh="19">effects/breach.png</animSheet>
+	
+	<anim name="breach">
+		<sheet>breach</sheet>
+		<desc length="7" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	
 <!-- Crystal Lockdown -->
 
-<animSheet name="crystal_1" w="108" h="19" fw="18" fh="19">people/crystal_1.png</animSheet>
-<animSheet name="crystal_2" w="90" h="19" fw="18" fh="19">people/crystal_2.png</animSheet>
+	<animSheet name="crystal_1" w="108" h="19" fw="18" fh="19">people/crystal_1.png</animSheet>
+	<animSheet name="crystal_2" w="90" h="19" fw="18" fh="19">people/crystal_2.png</animSheet>
 
-<anim name="crystal_1">
-	<sheet>crystal_1</sheet>
-	<desc length="6" x="0" y="0"/>
-	<time>0.5</time>
-</anim>
+	<anim name="crystal_1">
+		<sheet>crystal_1</sheet>
+		<desc length="6" x="0" y="0"/>
+		<time>0.5</time>
+	</anim>
 
-<anim name="crystal_2">
-	<sheet>crystal_2</sheet>
-	<desc length="5" x="0" y="0"/>
-	<time>0.5</time>
-</anim>
+	<anim name="crystal_2">
+		<sheet>crystal_2</sheet>
+		<desc length="5" x="0" y="0"/>
+		<time>0.5</time>
+	</anim>
 
 
 <!-- Customize screen stuff-->
-<animSheet name="custom_repair" w="315" h="35" fw="35" fh="35">customizeUI/custom_repair_strip9.png</animSheet>
-<animSheet name="custom_rock" w="140" h="35" fw="35" fh="35">customizeUI/custom_rockman_strip4.png</animSheet>
-<animSheet name="custom_type" w="96" h="24" fw="24" fh="24">customizeUI/custom_type_strip4.png</animSheet>
+	<animSheet name="custom_repair" w="315" h="35" fw="35" fh="35">customizeUI/custom_repair_strip9.png</animSheet>
+	<animSheet name="custom_rock" w="140" h="35" fw="35" fh="35">customizeUI/custom_rockman_strip4.png</animSheet>
+	<animSheet name="custom_type" w="96" h="24" fw="24" fh="24">customizeUI/custom_type_strip4.png</animSheet>
 
-<anim name="custom_repair">
-	<sheet>custom_repair</sheet>
-	<desc length="9" x="0" y="0"/>
-	<time>1.0</time>
-</anim>
+	<anim name="custom_repair">
+		<sheet>custom_repair</sheet>
+		<desc length="9" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
 
-<anim name="custom_rock">
-	<sheet>custom_rock</sheet>
-	<desc length="4" x="0" y="0"/>
-	<time>1.0</time>
-</anim>
+	<anim name="custom_rock">
+		<sheet>custom_rock</sheet>
+		<desc length="4" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
 
-<anim name="custom_type">
-	<sheet>custom_type</sheet>
-	<desc length="4" x="0" y="0"/>
-	<time>1.0</time>
-</anim>
+	<anim name="custom_type">
+		<sheet>custom_type</sheet>
+		<desc length="4" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
 
 
 
 <!-- weapon stuff -->
 <animSheet name="laser_1" w="192" h="60" fw="16" fh="60">weapons/laser/laser_1_strip12.png</animSheet>
 
-
-
-
 <animSheet name="artillery_fed" w="400" h="100" fw="40" fh="100">weapons/blank.png</animSheet>
-
-
 <weaponAnim name="artillery_fed">
 	<sheet>artillery_fed</sheet>
 	<desc length="10" x="0" y="0"/>
@@ -132,15 +127,15 @@
 		<chargeImage>weapons/boss_4_glow.png</chargeImage>
 	</weaponAnim>
 
-<!-- LEAVE THIS -->
-<weaponAnim name="default">
-	<sheet>laser1</sheet>
-	<desc length="12" x="0" y="0"/>
-	<chargedFrame>5</chargedFrame>
-	<fireFrame>8</fireFrame>
-	<firePoint  x="10" y="16"/>
-	<mountPoint x="4" y="44"/>
-</weaponAnim>
+<!-- DEFAULT SHEET: LEAVE THIS -->
+	<weaponAnim name="default">
+		<sheet>laser1</sheet>
+		<desc length="12" x="0" y="0"/>
+		<chargedFrame>5</chargedFrame>
+		<fireFrame>8</fireFrame>
+		<firePoint  x="10" y="16"/>
+		<mountPoint x="4" y="44"/>
+	</weaponAnim>
 
 <!--
 	Lasers (done)
@@ -149,7 +144,7 @@
 		Projectiles
 	-->	
 
-		<animSheet name="laser_light_fire" w="200" h="20" fw="50" fh="20">weapons/laser_light_fire_strip4.png</animSheet>
+		<animSheet name="laser_light_fire" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_fire_strip4.png</animSheet>
 		
 		<anim name="laser_light_fire">
 			<sheet>laser_light_fire</sheet>
@@ -157,7 +152,7 @@
 			<time>0.5</time>
 		</anim>
 
-		<animSheet name="laser_light_fire_stun" w="200" h="20" fw="50" fh="20">weapons/laser_light_fire_stun_strip4.png</animSheet>
+		<animSheet name="laser_light_fire_stun" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_fire_stun_strip4.png</animSheet>
 		
 		<anim name="laser_light_fire_stun">
 			<sheet>laser_light_fire_stun</sheet>
@@ -165,7 +160,7 @@
 			<time>0.5</time>
 		</anim>
 
-		<animSheet name="laser_light_ion_fire" w="200" h="20" fw="50" fh="20">weapons/laser_light_ion_fire_strip4.png</animSheet>
+		<animSheet name="laser_light_ion_fire" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_ion_fire_strip4.png</animSheet>
 		
 		<anim name="laser_light_ion_fire">
 			<sheet>laser_light_ion_fire</sheet>
@@ -173,7 +168,7 @@
 			<time>0.5</time>
 		</anim>
 
-		<animSheet name="laser_light_ion_fire_stun" w="200" h="20" fw="50" fh="20">weapons/laser_light_ion_fire_stun_strip4.png</animSheet>
+		<animSheet name="laser_light_ion_fire_stun" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_ion_fire_stun_strip4.png</animSheet>
 		
 		<anim name="laser_light_ion_fire_stun">
 			<sheet>laser_light_ion_fire_stun</sheet>
@@ -181,7 +176,7 @@
 			<time>0.5</time>
 		</anim>
 
-		<animSheet name="laser_light_ion_pierce_fire" w="200" h="20" fw="50" fh="20">weapons/laser_light_ion_pierce_fire_strip4.png</animSheet>
+		<animSheet name="laser_light_ion_pierce_fire" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_ion_pierce_fire_strip4.png</animSheet>
 		
 		<anim name="laser_light_ion_pierce_fire">
 			<sheet>laser_light_ion_pierce_fire</sheet>
@@ -189,7 +184,7 @@
 			<time>0.5</time>
 		</anim>
 
-		<animSheet name="laser_light_ion_pierce" w="200" h="20" fw="50" fh="20">weapons/laser_light_ion_pierce_strip4.png</animSheet>
+		<animSheet name="laser_light_ion_pierce" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_ion_pierce_strip4.png</animSheet>
 		
 		<anim name="laser_light_ion_pierce">
 			<sheet>laser_light_ion_pierce</sheet>
@@ -197,7 +192,7 @@
 			<time>0.5</time>
 		</anim>
 
-		<animSheet name="laser_light_ion_pierce_stun" w="200" h="20" fw="50" fh="20">weapons/laser_light_ion_pierce_stun_strip4.png</animSheet>
+		<animSheet name="laser_light_ion_pierce_stun" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_ion_pierce_stun_strip4.png</animSheet>
 		
 		<anim name="laser_light_ion_pierce_stun">
 			<sheet>laser_light_ion_pierce_stun</sheet>
@@ -205,7 +200,7 @@
 			<time>0.5</time>
 		</anim>
 
-		<animSheet name="laser_light_ion" w="200" h="20" fw="50" fh="20">weapons/laser_light_ion_strip4.png</animSheet>
+		<animSheet name="laser_light_ion" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_ion_strip4.png</animSheet>
 		
 		<anim name="laser_light_ion">
 			<sheet>laser_light_ion</sheet>
@@ -213,7 +208,7 @@
 			<time>0.5</time>
 		</anim>
 
-		<animSheet name="laser_light_ion_stun" w="200" h="20" fw="50" fh="20">weapons/laser_light_ion_stun_strip4.png</animSheet>
+		<animSheet name="laser_light_ion_stun" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_ion_stun_strip4.png</animSheet>
 		
 		<anim name="laser_light_ion_stun">
 			<sheet>laser_light_ion_stun</sheet>
@@ -221,7 +216,7 @@
 			<time>0.5</time>
 		</anim>
 
-		<animSheet name="laser_light_pierce_fire" w="200" h="20" fw="50" fh="20">weapons/laser_light_pierce_fire_strip4.png</animSheet>
+		<animSheet name="laser_light_pierce_fire" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_pierce_fire_strip4.png</animSheet>
 		
 		<anim name="laser_light_pierce_fire">
 			<sheet>laser_light_pierce_fire</sheet>
@@ -229,7 +224,7 @@
 			<time>0.5</time>
 		</anim>
 
-		<animSheet name="laser_light_pierce" w="200" h="20" fw="50" fh="20">weapons/laser_light_pierce_strip4.png</animSheet>
+		<animSheet name="laser_light_pierce" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_pierce_strip4.png</animSheet>
 		
 		<anim name="laser_light_pierce">
 			<sheet>laser_light_pierce</sheet>
@@ -237,7 +232,7 @@
 			<time>0.5</time>
 		</anim>
 
-		<animSheet name="laser_light_pierce_stun" w="200" h="20" fw="50" fh="20">weapons/laser_light_pierce_stun_strip4.png</animSheet>
+		<animSheet name="laser_light_pierce_stun" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_pierce_stun_strip4.png</animSheet>
 		
 		<anim name="laser_light_pierce_stun">
 			<sheet>laser_light_pierce_stun</sheet>
@@ -245,7 +240,7 @@
 			<time>0.5</time>
 		</anim>
 
-		<animSheet name="laser_light" w="200" h="20" fw="50" fh="20">weapons/laser_light_strip4.png</animSheet>
+		<animSheet name="laser_light" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_strip4.png</animSheet>
 		
 		<anim name="laser_light">
 			<sheet>laser_light</sheet>
@@ -253,10 +248,70 @@
 			<time>0.5</time>
 		</anim>
 
-		<animSheet name="laser_light_stun" w="200" h="20" fw="50" fh="20">weapons/laser_light_stun_strip4.png</animSheet>
+		<animSheet name="laser_light_stun" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_stun_strip4.png</animSheet>
 		
 		<anim name="laser_light_stun">
 			<sheet>laser_light_stun</sheet>
+			<desc length="4" x="0" y="0"/>
+			<time>0.5</time>
+		</anim>
+
+		<animSheet name="laser_light_bio" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_bio_strip4.png</animSheet>
+		
+		<anim name="laser_light_bio">
+			<sheet>laser_light_bio</sheet>
+			<desc length="4" x="0" y="0"/>
+			<time>0.5</time>
+		</anim>
+		<animSheet name="laser_light_ion_bio" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_ion_bio_strip4.png</animSheet>
+		
+		<anim name="laser_light_ion_bio">
+			<sheet>laser_light_ion_bio</sheet>
+			<desc length="4" x="0" y="0"/>
+			<time>0.5</time>
+		</anim>
+
+		<animSheet name="laser_light_bio_stun" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_bio_stun_strip4.png</animSheet>
+		
+		<anim name="laser_light_bio_stun">
+			<sheet>laser_light_bio_stun</sheet>
+			<desc length="4" x="0" y="0"/>
+			<time>0.5</time>
+		</anim>
+		<animSheet name="laser_light_ion_bio_stun" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_ion_bio_stun_strip4.png</animSheet>
+		
+		<anim name="laser_light_ion_bio_stun">
+			<sheet>laser_light_ion_bio_stun</sheet>
+			<desc length="4" x="0" y="0"/>
+			<time>0.5</time>
+		</anim>
+
+		<animSheet name="laser_light_fire_bio" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_fire_bio_strip4.png</animSheet>
+		
+		<anim name="laser_light_fire_bio">
+			<sheet>laser_light_fire_bio</sheet>
+			<desc length="4" x="0" y="0"/>
+			<time>0.5</time>
+		</anim>
+		<animSheet name="laser_light_ion_fire_bio" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_ion_fire_bio_strip4.png</animSheet>
+		
+		<anim name="laser_light_ion_fire_bio">
+			<sheet>laser_light_ion_fire_bio</sheet>
+			<desc length="4" x="0" y="0"/>
+			<time>0.5</time>
+		</anim>
+
+		<animSheet name="laser_light_pierce_bio" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_pierce_bio_strip4.png</animSheet>
+		
+		<anim name="laser_light_pierce_bio">
+			<sheet>laser_light_pierce_bio</sheet>
+			<desc length="4" x="0" y="0"/>
+			<time>0.5</time>
+		</anim>
+		<animSheet name="laser_light_ion_pierce_bio" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_ion_pierce_bio_strip4.png</animSheet>
+		
+		<anim name="laser_light_ion_pierce_bio">
+			<sheet>laser_light_ion_pierce_bio</sheet>
 			<desc length="4" x="0" y="0"/>
 			<time>0.5</time>
 		</anim>
@@ -312,7 +367,7 @@
 		Animations
 	-->
 		<weaponAnim name="laser_burst_1_fire">
-			<sheet>laser_burst_1</sheet>
+			<sheet>laser_burst_1_fire</sheet>
 			<desc length="12" x="0" y="0"/>
 			<chargedFrame>5</chargedFrame>
 			<fireFrame>8</fireFrame>
@@ -321,7 +376,7 @@
 		</weaponAnim>
 
 		<weaponAnim name="laser_burst_1_ion_fire">
-			<sheet>laser_burst_1_ion</sheet>
+			<sheet>laser_burst_1_ion_fire</sheet>
 			<desc length="20" x="0" y="0"/>
 			<chargedFrame>13</chargedFrame>
 			<fireFrame>16</fireFrame>
@@ -330,7 +385,7 @@
 		</weaponAnim>
 
 		<weaponAnim name="laser_burst_1_fire_stun">
-			<sheet>laser_burst_1</sheet>
+			<sheet>laser_burst_1_fire_stun</sheet>
 			<desc length="12" x="0" y="0"/>
 			<chargedFrame>5</chargedFrame>
 			<fireFrame>8</fireFrame>
@@ -339,7 +394,7 @@
 		</weaponAnim>
 
 		<weaponAnim name="laser_burst_1_ion_fire_stun">
-			<sheet>laser_burst_1_ion</sheet>
+			<sheet>laser_burst_1_ion_fire_stun</sheet>
 			<desc length="20" x="0" y="0"/>
 			<chargedFrame>13</chargedFrame>
 			<fireFrame>16</fireFrame>
@@ -348,7 +403,7 @@
 		</weaponAnim>
 
 		<weaponAnim name="laser_burst_1_pierce_fire">
-			<sheet>laser_burst_1</sheet>
+			<sheet>laser_burst_1_pierce_fire</sheet>
 			<desc length="12" x="0" y="0"/>
 			<chargedFrame>5</chargedFrame>
 			<fireFrame>8</fireFrame>
@@ -357,7 +412,7 @@
 		</weaponAnim>
 
 		<weaponAnim name="laser_burst_1_ion_pierce_fire">
-			<sheet>laser_burst_1_ion</sheet>
+			<sheet>laser_burst_1_ion_pierce_fire</sheet>
 			<desc length="20" x="0" y="0"/>
 			<chargedFrame>13</chargedFrame>
 			<fireFrame>16</fireFrame>
@@ -440,7 +495,7 @@
 
 
 		<weaponAnim name="laser_burst_2_fire">
-			<sheet>laser_burst_2</sheet>
+			<sheet>laser_burst_2_fire</sheet>
 			<desc length="12" x="0" y="0"/>
 			<chargedFrame>5</chargedFrame>
 			<fireFrame>8</fireFrame>
@@ -449,7 +504,7 @@
 		</weaponAnim>
 
 		<weaponAnim name="laser_burst_2_ion_fire">
-			<sheet>laser_burst_2_ion</sheet>
+			<sheet>laser_burst_2_ion_fire</sheet>
 			<desc length="20" x="0" y="0"/>
 			<chargedFrame>13</chargedFrame>
 			<fireFrame>16</fireFrame>
@@ -458,7 +513,7 @@
 		</weaponAnim>
 
 		<weaponAnim name="laser_burst_2_fire_stun">
-			<sheet>laser_burst_2</sheet>
+			<sheet>laser_burst_2_fire_stun</sheet>
 			<desc length="12" x="0" y="0"/>
 			<chargedFrame>5</chargedFrame>
 			<fireFrame>8</fireFrame>
@@ -467,7 +522,7 @@
 		</weaponAnim>
 
 		<weaponAnim name="laser_burst_2_ion_fire_stun">
-			<sheet>laser_burst_2_ion</sheet>
+			<sheet>laser_burst_2_ion_fire_stun</sheet>
 			<desc length="20" x="0" y="0"/>
 			<chargedFrame>13</chargedFrame>
 			<fireFrame>16</fireFrame>
@@ -476,7 +531,7 @@
 		</weaponAnim>
 
 		<weaponAnim name="laser_burst_2_pierce_fire">
-			<sheet>laser_burst_2</sheet>
+			<sheet>laser_burst_2_pierce_fire</sheet>
 			<desc length="12" x="0" y="0"/>
 			<chargedFrame>5</chargedFrame>
 			<fireFrame>8</fireFrame>
@@ -485,7 +540,7 @@
 		</weaponAnim>
 
 		<weaponAnim name="laser_burst_2_ion_pierce_fire">
-			<sheet>laser_burst_2_ion</sheet>
+			<sheet>laser_burst_2_ion_pierce_fire</sheet>
 			<desc length="20" x="0" y="0"/>
 			<chargedFrame>13</chargedFrame>
 			<fireFrame>16</fireFrame>
@@ -567,7 +622,7 @@
 
 
 		<weaponAnim name="laser_burst_3_fire">
-			<sheet>laser_burst_3</sheet>
+			<sheet>laser_burst_3_fire</sheet>
 			<desc length="12" x="0" y="0"/>
 			<chargedFrame>5</chargedFrame>
 			<fireFrame>8</fireFrame>
@@ -576,7 +631,7 @@
 		</weaponAnim>
 
 		<weaponAnim name="laser_burst_3_ion_fire">
-			<sheet>laser_burst_3_ion</sheet>
+			<sheet>laser_burst_3_ion_fire</sheet>
 			<desc length="20" x="0" y="0"/>
 			<chargedFrame>13</chargedFrame>
 			<fireFrame>16</fireFrame>
@@ -585,7 +640,7 @@
 		</weaponAnim>
 
 		<weaponAnim name="laser_burst_3_fire_stun">
-			<sheet>laser_burst_3</sheet>
+			<sheet>laser_burst_3_fire_stun</sheet>
 			<desc length="12" x="0" y="0"/>
 			<chargedFrame>5</chargedFrame>
 			<fireFrame>8</fireFrame>
@@ -594,7 +649,7 @@
 		</weaponAnim>
 
 		<weaponAnim name="laser_burst_3_ion_fire_stun">
-			<sheet>laser_burst_3_ion</sheet>
+			<sheet>laser_burst_3_ion_fire_stun</sheet>
 			<desc length="20" x="0" y="0"/>
 			<chargedFrame>13</chargedFrame>
 			<fireFrame>16</fireFrame>
@@ -603,7 +658,7 @@
 		</weaponAnim>
 
 		<weaponAnim name="laser_burst_3_pierce_fire">
-			<sheet>laser_burst_3</sheet>
+			<sheet>laser_burst_3_pierce_fire</sheet>
 			<desc length="12" x="0" y="0"/>
 			<chargedFrame>5</chargedFrame>
 			<fireFrame>8</fireFrame>
@@ -612,7 +667,7 @@
 		</weaponAnim>
 
 		<weaponAnim name="laser_burst_3_ion_pierce_fire">
-			<sheet>laser_burst_3_ion</sheet>
+			<sheet>laser_burst_3_ion_pierce_fire</sheet>
 			<desc length="20" x="0" y="0"/>
 			<chargedFrame>13</chargedFrame>
 			<fireFrame>16</fireFrame>
@@ -702,7 +757,7 @@
 	-->
 	
 
-		<animSheet name="laser_light1" w="200" h="20" fw="50" fh="20">weapons/laser_light_strip4.png</animSheet>
+		<animSheet name="laser_light1" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_strip4.png</animSheet>
 
 		<anim name="laser_light1">
 			<sheet>laser_light1</sheet>
@@ -710,14 +765,14 @@
 			<time>0.5</time>
 		</anim>
 
-		<animSheet name="laser_light2" w="200" h="20" fw="50" fh="20">weapons/laser_light2_strip4.png</animSheet>
+		<animSheet name="laser_light2" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light2_strip4.png</animSheet>
 
 		<anim name="laser_light2">
 			<sheet>laser_light2</sheet>
 			<desc length="4" x="0" y="0"/>
 			<time>0.5</time>
 
-		</anim><animSheet name="laser_ion_light1" w="200" h="20" fw="50" fh="20">weapons/laser_light_ion_strip4.png</animSheet>
+		</anim><animSheet name="laser_ion_light1" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_ion_strip4.png</animSheet>
 
 		<anim name="laser_ion_light1">
 			<sheet>laser_ion_light1</sheet>
@@ -725,7 +780,7 @@
 			<time>0.5</time>
 		</anim>
 
-		<animSheet name="laser_ion_light2" w="200" h="20" fw="50" fh="20">weapons/laser_light2_ion_strip4.png</animSheet>
+		<animSheet name="laser_ion_light2" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light2_ion_strip4.png</animSheet>
 
 		<anim name="laser_ion_light2">
 			<sheet>laser_ion_light2</sheet>
@@ -733,14 +788,14 @@
 			<time>0.5</time>
 		</anim>
 
-		<animSheet name="laser_ion_heavy" w="200" h="20" fw="50" fh="20">weapons/laser_ion_strip1.png</animSheet>
+		<animSheet name="laser_ion_heavy" w="200" h="20" fw="50" fh="20">weapons/laser/laser_ion_strip1.png</animSheet>
 
 		<anim name="laser_ion_heavy">
 			<sheet>laser_ion_heavy</sheet>
 			<desc length="4" x="0" y="0"/>
 			<time>0.5</time>
 		</anim>
-		<animSheet name="laser_heavy1" w="200" h="20" fw="50" fh="20">weapons/laser_heavy_strip4.png</animSheet>
+		<animSheet name="laser_heavy1" w="200" h="20" fw="50" fh="20">weapons/laser/laser_heavy_strip4.png</animSheet>
 
 		<anim name="laser_heavy1">
 			<sheet>laser_heavy1</sheet>
@@ -753,8 +808,8 @@
 		<animSheet name="laser_burst_5" w="300" h="64" fw="25" fh="64">weapons/laser/laser_5_strip12.png</animSheet>
 		<animSheet name="laser_heavy_1" w="208" h="62" fw="26" fh="62">weapons/laser/laser_heavy_1_strip8.png</animSheet>
 		<animSheet name="laser_heavy_2" w="224" h="71" fw="28" fh="71">weapons/laser/laser_heavy_2_strip8.png</animSheet>
-		<animSheet name="laser_heavy_ion_1" w="208" h="62" fw="26" fh="62">weapons/laser/laser_heavy_ion_1_strip8.png</animSheet>
-		<animSheet name="laser_heavy_ion_2" w="224" h="71" fw="28" fh="71">weapons/laser/laser_heavy_ion_2_strip8.png</animSheet>
+		<animSheet name="LASER_HEAVY_1_ION" w="208" h="62" fw="26" fh="62">weapons/laser/LASER_HEAVY_1_ION_strip8.png</animSheet>
+		<animSheet name="LASER_HEAVY_2_ION" w="224" h="71" fw="28" fh="71">weapons/laser/LASER_HEAVY_2_ION_strip8.png</animSheet>
 	<!--
 		Animations
 	-->
@@ -787,24 +842,24 @@
 			<chargeImage>weapons/laser/laser_heavy_2_glow.png</chargeImage>
 		</weaponAnim>
 	
-		<weaponAnim name="laser_heavy_ion_1">
-			<sheet>laser_heavy_ion_1</sheet>
+		<weaponAnim name="laser_heavy_1_ion">
+			<sheet>laser_heavy_1_ion</sheet>
 			<desc length="8" x="0" y="0"/>
 			<chargedFrame>1</chargedFrame>
 			<fireFrame>5</fireFrame>
 			<firePoint  x="17" y="10"/>
 			<mountPoint x="3" y="41"/>
-			<chargeImage>weapons/laser/laser_heavy_ion_1_glow.png</chargeImage>
+			<chargeImage>weapons/laser/laser_heavy_1_ion_glow.png</chargeImage>
 		</weaponAnim>
 	
-		<weaponAnim name="laser_heavy_ion_2">
-			<sheet>laser_heavy_ion_2</sheet>
+		<weaponAnim name="laser_heavy_2_ion">
+			<sheet>laser_heavy_2_ion</sheet>
 			<desc length="8" x="0" y="0"/>
 			<chargedFrame>1</chargedFrame>
 			<fireFrame>5</fireFrame>
 			<firePoint  x="18" y="10"/>
 			<mountPoint x="6" y="45"/>
-			<chargeImage>weapons/laser/laser_heavy_ion_2_glow.png</chargeImage>
+			<chargeImage>weapons/laser/laser_heavy_2_ion_glow.png</chargeImage>
 		</weaponAnim>
 
 
@@ -991,28 +1046,28 @@
 			<time>0.3</time>
 		</anim>
 
-		<animSheet name="pierce_ion_1_shot" w="192" h="24" fw="24" fh="24">weapons/pierce_ion_1_shot_strip8.png</animSheet>
+		<animSheet name="ion_1_pierce_shot" w="192" h="24" fw="24" fh="24">weapons/ion/ion_1_pierce_shot_strip8.png</animSheet>
 
-		<anim name="pierce_ion_1_shot">
-			<sheet>pierce_ion_1_shot</sheet>
+		<anim name="ion_1_pierce_shot">
+			<sheet>ion_1_pierce_shot</sheet>
 			<desc length="8" x="0" y="0"/>
 			<time>0.3</time>
 		</anim>
 
-		<animSheet name="pierce_ion_2_shot" w="192" h="24" fw="24" fh="24">weapons/pierce_ion_2_shot_strip8.png</animSheet>
+		<animSheet name="ion_2_pierce_shot" w="192" h="24" fw="24" fh="24">weapons/ion/ion_2_pierce_shot_strip8.png</animSheet>
 
-		<anim name="pierce_ion_2_shot">
-			<sheet>pierce_ion_2_shot</sheet>
+		<anim name="ion_2_pierce_shot">
+			<sheet>ion_2_pierce_shot</sheet>
 			<desc length="8" x="0" y="0"/>
 			<time>0.3</time>
 		</anim>
 
 
 
-		<animSheet name="pierce_ion_4_shot" w="256" h="32" fw="32" fh="32">weapons/pierce_ion_4_shot_strip8.png</animSheet>
+		<animSheet name="ion_4_pierce_shot" w="256" h="32" fw="32" fh="32">weapons/ion/ion_4_pierce_shot_strip8.png</animSheet>
 
-		<anim name="pierce_ion_4_shot">
-			<sheet>pierce_ion_4_shot</sheet>
+		<anim name="ion_4_pierce_shot">
+			<sheet>ion_4_pierce_shot</sheet>
 			<desc length="8" x="0" y="0"/>
 			<time>0.3</time>
 		</anim>
@@ -1291,51 +1346,86 @@
 		</weaponAnim>
 
 
-<!-- ACTUAL PROJECTILES -->
 
+<!-- 
+	Effects
+-->
+		<animSheet name="effect_fire" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_fire_strip4.png</animSheet>
+		<weaponAnim name="effect_fire">
+			<sheet>effect_fire</sheet>
+			<desc length="4" x="0" y="0"/>
+			<chargedFrame>2</chargedFrame>
+			<fireFrame>3</fireFrame>
+			<firePoint x="40" y="10"/>
+			<mountPoint x="10" y="20"/>
+		</weaponAnim>
+		<animSheet name="effect_pierce" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_pierce_strip4.png</animSheet>
+		<weaponAnim name="effect_pierce">
+			<sheet>effect_pierce</sheet>
+			<desc length="4" x="0" y="0"/>
+			<chargedFrame>2</chargedFrame>
+			<fireFrame>3</fireFrame>
+			<firePoint x="40" y="10"/>
+			<mountPoint x="10" y="20"/>
+		</weaponAnim>
+		<animSheet name="effect_stun" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_stun_strip4.png</animSheet>
+		<weaponAnim name="effect_stun">
+			<sheet>effect_stun</sheet>
+			<desc length="4" x="0" y="0"/>
+			<chargedFrame>2</chargedFrame>
+			<fireFrame>3</fireFrame>
+			<firePoint x="40" y="10"/>
+			<mountPoint x="10" y="20"/>
+		</weaponAnim>
+		<animSheet name="effect_bio" w="200" h="20" fw="50" fh="20">weapons/laser/laser_light_bio_strip4.png</animSheet>
+		<weaponAnim name="effect_bio">
+			<sheet>effect_bio</sheet>
+			<desc length="4" x="0" y="0"/>
+			<chargedFrame>2</chargedFrame>
+			<fireFrame>3</fireFrame>
+			<firePoint x="40" y="10"/>
+			<mountPoint x="10" y="20"/>
+		</weaponAnim>
+<!--
+	Projectiles
+-->
+	<animSheet name="laser_drone" w="200" h="20" fw="50" fh="20">weapons/laser/laser_drone_strip4.png</animSheet>
 
+	<anim name="laser_drone">
+		<sheet>laser_drone</sheet>
+		<desc length="4" x="0" y="0"/>
+		<time>0.5</time>
+	</anim>
 
+	<animSheet name="beam_contact" w="240" h="48" fw="48" fh="48">weapons/laser/laser_contact.png</animSheet>
+	<anim name="beam_contact">
+		<sheet>beam_contact</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>0.75</time>
+	</anim>
 
-
-
-
-<animSheet name="laser_drone" w="200" h="20" fw="50" fh="20">weapons/laser/laser_drone_strip4.png</animSheet>
-
-<anim name="laser_drone">
-	<sheet>laser_drone</sheet>
-	<desc length="4" x="0" y="0"/>
-	<time>0.5</time>
-</anim>
-
-<animSheet name="beam_contact" w="240" h="48" fw="48" fh="48">weapons/laser/laser_contact.png</animSheet>
-<anim name="beam_contact">
-	<sheet>beam_contact</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>0.75</time>
-</anim>
-
-<animSheet name="ion_beam_contact" w="240" h="48" fw="48" fh="48">weapons/laser/laser_contact.png</animSheet>
-<anim name="ion_beam_contact">
-	<sheet>ion_beam_contact</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>0.75</time>
-</anim>
-
-
-
-<animSheet name="explosion_big1" w="768" h="64" fw="64" fh="64">effects/explosion_big2.png</animSheet>
-<anim name="explosion_big1">
-	<sheet>explosion_big1</sheet>
-	<desc length="12" x="0" y="0"/>
-	<time>0.75</time>
-</anim>
-<!--  JUSTIN
-<animSheet name="explosion_big1" w="640" h="64" fw="64" fh="64">effects/explosion_big1_strip10.png</animSheet>
-<anim name="explosion_big1">
-	<sheet>explosion_big1</sheet>
-	<desc length="10" x="0" y="0"/>
-	<time>0.75</time>
-</anim> -->
+	<animSheet name="ion_beam_contact" w="240" h="48" fw="48" fh="48">weapons/laser/laser_contact.png</animSheet>
+	<anim name="ion_beam_contact">
+		<sheet>ion_beam_contact</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>0.75</time>
+	</anim>
+<!--
+	Explosions
+-->
+	<animSheet name="explosion_big1" w="768" h="64" fw="64" fh="64">effects/explosion_big2.png</animSheet>
+	<anim name="explosion_big1">
+		<sheet>explosion_big1</sheet>
+		<desc length="12" x="0" y="0"/>
+		<time>0.75</time>
+	</anim>
+	<!--  JUSTIN
+	<animSheet name="explosion_big1" w="640" h="64" fw="64" fh="64">effects/explosion_big1_strip10.png</animSheet>
+	<anim name="explosion_big1">
+		<sheet>explosion_big1</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>0.75</time>
+	</anim> -->
 
 
 	<animSheet name="explosion_crystal" w="512" h="64" fw="64" fh="64">effects/explosion_crystal.png</animSheet>

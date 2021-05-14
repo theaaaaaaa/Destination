@@ -5054,10 +5054,6 @@
 <text name="weapon_LASER_BURST_1_short" language="pl">LObr I</text>
 <text name="weapon_LASER_BURST_1_title" language="pl">Laser obronny typ I</text>
 <text name="weapon_LASER_BURST_1_tooltip" language="pl">Jednostrzałowy laser, który zadaje 1 pkt. obrażeń.</text>
-<text name="weapon_LASER_BURST_2_A_desc" language="pl">Prosty w działaniu, acz skuteczny laser automatyczny.</text>
-<text name="weapon_LASER_BURST_2_A_short" language="pl">LAut I</text>
-<text name="weapon_LASER_BURST_2_A_title" language="pl">Laser automatyczny typ I</text>
-<text name="weapon_LASER_BURST_2_A_tooltip" language="pl">Broń oddająca 2 strzały, z których każdy zadaje 1 pkt. obrażeń.</text>
 <text name="weapon_LASER_BURST_2_desc" language="pl">Podstawowa wersja słabego, dwustrzałowego lasera. Często są w nie uzbrojone statki transportowe, których właścicieli nie stać na lepszą broń.</text>
 <text name="weapon_LASER_BURST_2_short" language="pl">L2Str</text>
 <text name="weapon_LASER_BURST_2_title" language="pl">Laser dwustrzałowy</text>
@@ -5070,26 +5066,14 @@
 <text name="weapon_LASER_BURST_5_short" language="pl">LAut III</text>
 <text name="weapon_LASER_BURST_5_title" language="pl">Laser automatyczny typ III</text>
 <text name="weapon_LASER_BURST_5_tooltip" language="pl">Broń oddająca 5 strzałów, z których każdy zadaje 1 pkt. obrażeń.</text>
-<text name="weapon_LASER_CHAINGUN_2_desc" language="pl">Ta broń laserowa rozgrzewa się dość długo, ale strzela coraz szybciej, tak że w końcu jest w stanie przebić się przez dowolną liczbę osłon.</text>
-<text name="weapon_LASER_CHAINGUN_2_short" language="pl">DzGat</text>
-<text name="weapon_LASER_CHAINGUN_2_title" language="pl">Działko Gatlinga</text>
-<text name="weapon_LASER_CHAINGUN_2_tooltip" language="pl">Szybkostrzelność rośnie w miarę ostrzału.</text>
-<text name="weapon_LASER_CHAINGUN_desc" language="pl">Ten dwulufowy laser za każdym razem strzela coraz szybciej. Po 3 salwach jego przeładowanie trwa zaledwie 7 sekund.</text>
-<text name="weapon_LASER_CHAINGUN_short" language="pl">ADzLas</text>
-<text name="weapon_LASER_CHAINGUN_title" language="pl">Auto. działko laserowe</text>
-<text name="weapon_LASER_CHAINGUN_tooltip" language="pl">Broń laserowa, która strzela dwukrotnie, zadając po 2 pkt. obrażeń. Szybkostrzelność rośnie w miarę ostrzału.</text>
-<text name="weapon_LASER_CHARGEGUN_2_desc" language="pl">Ta broń laserowa kumuluje amunicję i może strzelać ogniem sekwencyjnym.</text>
-<text name="weapon_LASER_CHARGEGUN_2_short" language="pl">SekLas II</text>
-<text name="weapon_LASER_CHARGEGUN_2_title" language="pl">Sekwencer laserowy typ II</text>
-<text name="weapon_LASER_CHARGEGUN_2_tooltip" language="pl">Broń kumulująca serie maksymalnie 4 strzałów.</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_desc" language="pl">Ta broń laserowa kumuluje do 2 szt. amunicji i może strzelać ogniem sekwencyjnym. Ulepszona wersja wymaga tylko 1 pkt. energii.</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_short" language="pl">SekLas</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_title" language="pl">Sekwencer laserowy</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_tooltip" language="pl">Broń kumulująca serie maksymalnie 2 strzałów.</text>
-<text name="weapon_LASER_CHARGEGUN_desc" language="pl">Ta broń laserowa kumuluje do 2 szt. amunicji i może strzelać ogniem sekwencyjnym.</text>
-<text name="weapon_LASER_CHARGEGUN_short" language="pl">SekLas</text>
-<text name="weapon_LASER_CHARGEGUN_title" language="pl">Sekwencer laserowy</text>
-<text name="weapon_LASER_CHARGEGUN_tooltip" language="pl">Broń kumulująca serie maksymalnie 2 strzałów.</text>
+<text name="weapon_LASER_CHAIN_2_desc" language="pl">Ta broń laserowa rozgrzewa się dość długo, ale strzela coraz szybciej, tak że w końcu jest w stanie przebić się przez dowolną liczbę osłon.</text>
+<text name="weapon_LASER_CHAIN_2_short" language="pl">DzGat</text>
+<text name="weapon_LASER_CHAIN_2_title" language="pl">Działko Gatlinga</text>
+<text name="weapon_LASER_CHAIN_2_tooltip" language="pl">Szybkostrzelność rośnie w miarę ostrzału.</text>
+<text name="weapon_LASER_CHAIN_1_desc" language="pl">Ten dwulufowy laser za każdym razem strzela coraz szybciej. Po 3 salwach jego przeładowanie trwa zaledwie 7 sekund.</text>
+<text name="weapon_LASER_CHAIN_1_short" language="pl">ADzLas</text>
+<text name="weapon_LASER_CHAIN_1_title" language="pl">Auto. działko laserowe</text>
+<text name="weapon_LASER_CHAIN_1_tooltip" language="pl">Broń laserowa, która strzela dwukrotnie, zadając po 2 pkt. obrażeń. Szybkostrzelność rośnie w miarę ostrzału.</text>
 <text name="weapon_LASER_HEAVY_1_SP_desc" language="pl">Ciężkie lasery mają dużo większą siłę ognia niż ich mniejsze, automatyczne odpowiedniki. Ta zmodyfikowana wersja broni przebija 1 pkt. osłony.</text>
 <text name="weapon_LASER_HEAVY_1_SP_short" language="pl">CLasP I</text>
 <text name="weapon_LASER_HEAVY_1_SP_title" language="pl">Ciężki laser przebijający I</text>

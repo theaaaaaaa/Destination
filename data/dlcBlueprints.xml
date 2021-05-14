@@ -11,10 +11,8 @@
 	<name>SHOTGUN</name>
 	<name>SHOTGUN_2</name>
 	<name>MISSILE_CHARGEGUN</name>
-	<name>LASER_CHAINGUN</name>
-	<name>LASER_CHAINGUN_2</name>
-	<name>LASER_CHARGEGUN</name>
-	<name>LASER_CHARGEGUN_2</name>
+	<name>LASER_CHAIN_</name>
+	<name>LASER_CHAIN_2</name>
 	<name>ION_CHAINGUN</name>
 	<name>ION_STUN</name>
 	<name>ION_CHARGEGUN</name>
@@ -51,11 +49,9 @@
 	<name>SHOTGUN</name>
 	<name>SHOTGUN_2</name>
 	<name>MISSILE_CHARGEGUN</name>
-	<name>LASER_CHAINGUN</name>
-	<name>LASER_CHAINGUN_2</name>
+	<name>LASER_CHAIN_</name>
+	<name>LASER_CHAIN_2</name>
 	<name>ION_CHAINGUN</name>
-	<name>LASER_CHARGEGUN</name>
-	<name>LASER_CHARGEGUN_2</name>
 	<name>ION_CHARGEGUN</name>
 	<name>ION_STUN</name>
 	<name>BOMB_STUN</name>
@@ -694,15 +690,15 @@
 <!--
 	Ion shotguns
 -->
-</weaponBlueprint><weaponBlueprint name="ION_SHOTGUN">
+</weaponBlueprint><weaponBlueprint name="SHOTGUN_ION">
 	<type>BURST</type>
-	<flavorType id="weapon_ION_SHOTGUN_flavorType"/>
+	<flavorType id="weapon_SHOTGUN_ION_flavorType"/>
 	<drone_targetable>1</drone_targetable>
-	<title id="weapon_ION_SHOTGUN_title"/>
+	<title id="weapon_SHOTGUN_ION_title"/>
 	<tip>tip_flak</tip>
-	<short id="weapon_ION_SHOTGUN_short"/>
-	<desc id="weapon_ION_SHOTGUN_desc"/>
-	<tooltip id="weapon_ION_SHOTGUN_tooltip"/>
+	<short id="weapon_SHOTGUN_ION_short"/>
+	<desc id="weapon_SHOTGUN_ION_desc"/>
+	<tooltip id="weapon_SHOTGUN_ION_tooltip"/>
 	<radius>45</radius>
 	<damage>1</damage>
 	<ion>1</ion>
@@ -739,19 +735,19 @@
 	<missSounds>
 		<sound>miss</sound>
 	</missSounds>
-	<weaponArt>ion_shotgun</weaponArt>
+	<weaponArt>shotgun_ion</weaponArt>
 	<iconImage>flak</iconImage>
 </weaponBlueprint>
 
-<weaponBlueprint name="ION_SHOTGUN_2">
+<weaponBlueprint name="SHOTGUN_ION_2">
 	<type>BURST</type>
-	<flavorType id="weapon_ION_SHOTGUN_2_flavorType"/>
+	<flavorType id="weapon_SHOTGUN_ION_2_flavorType"/>
 	<drone_targetable>1</drone_targetable>
-	<title id="weapon_ION_SHOTGUN_2_title"/>
-	<short id="weapon_ION_SHOTGUN_2_short"/>
+	<title id="weapon_SHOTGUN_ION_2_title"/>
+	<short id="weapon_SHOTGUN_ION_2_short"/>
 	<tip>tip_flak</tip>
-	<desc id="weapon_ION_SHOTGUN_2_desc"/>
-	<tooltip id="weapon_ION_SHOTGUN_2_tooltip"/>
+	<desc id="weapon_SHOTGUN_ION_2_desc"/>
+	<tooltip id="weapon_SHOTGUN_ION_2_tooltip"/>
 	<radius>55</radius>
 	<damage>1</damage>
 	<ion>1</ion>
@@ -788,7 +784,7 @@
 	<missSounds>
 		<sound>miss</sound>
 	</missSounds>
-	<weaponArt>ion_shotgun_2</weaponArt>
+	<weaponArt>shotgun_ion_2</weaponArt>
 	<iconImage>flak</iconImage>
 </weaponBlueprint>
 
@@ -839,13 +835,13 @@
 	<iconImage>missile_charge</iconImage>
 </weaponBlueprint>
 
-<weaponBlueprint name="LASER_CHAINGUN">  <!-- 1 shot 1power-->
+<weaponBlueprint name="LASER_CHAIN_1">  <!-- 1 shot 1power-->
 	<type>LASER</type>
-	<title id="weapon_LASER_CHAINGUN_title"/>
-	<short id="weapon_LASER_CHAINGUN_short"/>
+	<title id="weapon_LASER_CHAIN_1_title"/>
+	<short id="weapon_LASER_CHAIN_1_short"/>
 	<tip>tip_chain_laser</tip>
-	<desc id="weapon_LASER_CHAINGUN_desc"/>
-	<tooltip id="weapon_LASER_CHAINGUN_tooltip"/>
+	<desc id="weapon_LASER_CHAIN_1_desc"/>
+	<tooltip id="weapon_LASER_CHAIN_1_tooltip"/>
 	<damage>1</damage>
 	<shots>2</shots>
 	<sp>0</sp>
@@ -879,16 +875,16 @@
 	<missSounds>
 		<sound>miss</sound>
 	</missSounds>
-	<weaponArt>chainlaser</weaponArt>
+	<weaponArt>laser_chain_1</weaponArt>
 	<iconImage>laser_chain</iconImage>
 </weaponBlueprint>
-<weaponBlueprint name="LASER_CHAINGUN_ION">  <!-- 1 shot 1power-->
+<weaponBlueprint name="LASER_CHAIN_1_ION">  <!-- 1 shot 1power-->
 	<type>LASER</type>
-	<title id="weapon_LASER_CHAINGUN_ION_title"/>
-	<short id="weapon_LASER_CHAINGUN_ION_short"/>
+	<title id="weapon_LASER_CHAIN_1_ION_title"/>
+	<short id="weapon_LASER_CHAIN_1_ION_short"/>
 	<tip>tip_chain_laser</tip>
-	<desc id="weapon_LASER_CHAINGUN_ION_desc"/>
-	<tooltip id="weapon_LASER_CHAINGUN_ION_tooltip"/>
+	<desc id="weapon_LASER_CHAIN_1_ION_desc"/>
+	<tooltip id="weapon_LASER_CHAIN_1_ION_tooltip"/>
 	<damage>1</damage>
 	<ion>1</ion>
 	<shots>2</shots>
@@ -923,18 +919,18 @@
 	<missSounds>
 		<sound>miss</sound>
 	</missSounds>
-	<weaponArt>ion_chainlaser</weaponArt>
+	<weaponArt>laser_chain_1_ion</weaponArt>
 	<iconImage>laser_chain</iconImage>
 </weaponBlueprint>
 
 
-<weaponBlueprint name="LASER_CHAINGUN_2">  <!-- 1 shot 1power-->
+<weaponBlueprint name="LASER_CHAIN_2">  <!-- 1 shot 1power-->
 	<type>LASER</type>
-	<title id="weapon_LASER_CHAINGUN_2_title"/>
-	<short id="weapon_LASER_CHAINGUN_2_short"/>
+	<title id="weapon_LASER_CHAIN_2_title"/>
+	<short id="weapon_LASER_CHAIN_2_short"/>
 	<tip>tip_chain_laser</tip>
-	<desc id="weapon_LASER_CHAINGUN_2_desc"/>
-	<tooltip id="weapon_LASER_CHAINGUN_2_tooltip"/>
+	<desc id="weapon_LASER_CHAIN_2_desc"/>
+	<tooltip id="weapon_LASER_CHAIN_2_tooltip"/>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -968,17 +964,17 @@
 	<missSounds>
 		<sound>miss</sound>
 	</missSounds>
-	<weaponArt>chainlaser_2</weaponArt>
+	<weaponArt>laser_chain_2</weaponArt>
 	<iconImage>laser_chain</iconImage>
 </weaponBlueprint>
 
-<weaponBlueprint name="LASER_CHAINGUN_ION_2">  <!-- 1 shot 1power-->
+<weaponBlueprint name="LASER_CHAIN_1_ION_2">  <!-- 1 shot 1power-->
 	<type>LASER</type>
-	<title id="weapon_LASER_CHAINGUN_ION_2_title"/>
-	<short id="weapon_LASER_CHAINGUN_ION_2_short"/>
+	<title id="weapon_LASER_CHAIN_1_ION_2_title"/>
+	<short id="weapon_LASER_CHAIN_1_ION_2_short"/>
 	<tip>tip_chain_laser</tip>
-	<desc id="weapon_LASER_CHAINGUN_ION_2_desc"/>
-	<tooltip id="weapon_LASER_CHAINGUN_ION_2_tooltip"/>
+	<desc id="weapon_LASER_CHAIN_1_ION_2_desc"/>
+	<tooltip id="weapon_LASER_CHAIN_1_ION_2_tooltip"/>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -1013,7 +1009,7 @@
 	<missSounds>
 		<sound>miss</sound>
 	</missSounds>
-	<weaponArt>ion_chainlaser_2</weaponArt>
+	<weaponArt>laser_chain_2_ion</weaponArt>
 	<iconImage>laser_chain</iconImage>
 </weaponBlueprint>
 
@@ -1064,131 +1060,8 @@
 	<missSounds>
 		<sound>miss</sound>
 	</missSounds>
-	<weaponArt>ion_chaingun</weaponArt>
+	<weaponArt>ion_chain</weaponArt>
 	<iconImage>ion_chain</iconImage>
-</weaponBlueprint>
-
-
-
-<weaponBlueprint name="LASER_CHARGEGUN_PLAYER">
-	<type>LASER</type>
-	<title id="weapon_LASER_CHARGEGUN_PLAYER_title"/>
-	<short id="weapon_LASER_CHARGEGUN_PLAYER_short"/>
-	<tip>tip_charge</tip>
-	<desc id="weapon_LASER_CHARGEGUN_PLAYER_desc"/>
-	<tooltip id="weapon_LASER_CHARGEGUN_PLAYER_tooltip"/>
-	<damage>1</damage>
-	<shots>1</shots>
-	<sp>0</sp>
-	<fireChance>0</fireChance>
-	<breachChance>0</breachChance>
-	<cooldown>2.5</cooldown> <!-- was 4.2-->
-	<power>1</power>
-	<cost>30</cost>
-	<bp>2</bp>
-	<rarity>0</rarity>
-	<image>laser_light1</image>
-	<chargeLevels>2</chargeLevels>
-	<launchSounds>
-		<sound>lightLaser1</sound>
-		<sound>lightLaser2</sound>
-		<sound>lightLaser3</sound>
-	</launchSounds>
-	<hitShipSounds>
-		<sound>hitHull2</sound>
-		<sound>hitHull3</sound>
-	</hitShipSounds>
-	<hitShieldSounds>
-		<sound>hitShield1</sound>
-		<sound>hitShield2</sound>
-		<sound>hitShield3</sound>
-	</hitShieldSounds>
-	<missSounds>
-		<sound>miss</sound>
-	</missSounds>
-	<weaponArt>chargelaser</weaponArt>
-	<iconImage>laser_charge2</iconImage>
-</weaponBlueprint>
-
-<weaponBlueprint name="LASER_CHARGEGUN">
-	<type>LASER</type>
-	<title id="weapon_LASER_CHARGEGUN_title"/>
-	<short id="weapon_LASER_CHARGEGUN_short"/>
-	<tip>tip_charge</tip>
-	<desc id="weapon_LASER_CHARGEGUN_desc"/>
-	<tooltip id="weapon_LASER_CHARGEGUN_tooltip"/>
-	<damage>1</damage>
-	<shots>1</shots>
-	<sp>0</sp>
-	<fireChance>0</fireChance>
-	<breachChance>0</breachChance>
-	<cooldown>3</cooldown> <!-- was 4.2-->
-	<power>2</power>
-	<cost>55</cost> <!-- was 45-->
-	<bp>2</bp>
-	<rarity>3</rarity>
-	<image>laser_light1</image>
-	<chargeLevels>2</chargeLevels>
-	<launchSounds>
-		<sound>lightLaser1</sound>
-		<sound>lightLaser2</sound>
-		<sound>lightLaser3</sound>
-	</launchSounds>
-	<hitShipSounds>
-		<sound>hitHull2</sound>
-		<sound>hitHull3</sound>
-	</hitShipSounds>
-	<hitShieldSounds>
-		<sound>hitShield1</sound>
-		<sound>hitShield2</sound>
-		<sound>hitShield3</sound>
-	</hitShieldSounds>
-	<missSounds>
-		<sound>miss</sound>
-	</missSounds>
-	<weaponArt>chargelaser</weaponArt>
-	<iconImage>laser_charge2</iconImage>
-</weaponBlueprint>
-
-
-<weaponBlueprint name="LASER_CHARGEGUN_2">
-	<type>LASER</type>
-	<title id="weapon_LASER_CHARGEGUN_2_title"/>
-	<short id="weapon_LASER_CHARGEGUN_2_short"/>
-	<tip>tip_charge</tip>
-	<desc id="weapon_LASER_CHARGEGUN_2_desc"/>
-	<tooltip id="weapon_LASER_CHARGEGUN_2_tooltip"/>
-	<damage>1</damage>
-	<shots>1</shots>
-	<sp>0</sp>
-	<fireChance>1</fireChance>
-	<breachChance>0</breachChance>
-	<cooldown>2.5</cooldown>
-	<power>3</power>
-	<cost>70</cost>
-	<bp>2</bp>
-	<rarity>3</rarity>
-	<image>laser_light1</image>
-	<chargeLevels>4</chargeLevels>
-	<launchSounds>
-		<sound>lightLaser1</sound>
-		<sound>lightLaser2</sound>
-		<sound>lightLaser3</sound>
-	</launchSounds>
-	<hitShipSounds>
-		<sound>hitHull2</sound>
-		<sound>hitHull3</sound>
-	</hitShipSounds>
-	<hitShieldSounds>
-		<sound>hitShield1</sound>
-		<sound>hitShield2</sound>
-		<sound>hitShield3</sound>
-	</hitShieldSounds>
-	<missSounds>
-		<sound>miss</sound>
-	</missSounds>
-	<weaponArt>chargelaser2</weaponArt>
-	<iconImage>laser_charge4</iconImage>
 </weaponBlueprint>
 
 
@@ -1435,7 +1308,7 @@
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
 	<weaponList count="2" missiles="3">
-		<weapon name="LASER_CHAINGUN"/>
+		<weapon name="LASER_CHAIN_"/>
 		<weapon name="ION_STUN"/>
 	</weaponList>
 	<droneList count="0" drones="9"/>
@@ -1609,16 +1482,16 @@ keeping this in case we need another layout for now
 </blueprintList>
 
 <blueprintList name="WEAPONS_ANAEROBIC">
-	<name>LASER_ION_1</name>
-	<name>LASER_ION_2_A</name>
-	<name>LASER_ION_3</name>
+	<name>LASER_BURST_1_ION</name>
+	<name>LASER_BURST_2_ION_A</name>
+	<name>LASER_BURST_3_ION</name>
 	<name>LASER_ION_5</name>
 	<name>LASER_HEAVY_1</name>
 	<name>LASER_HEAVY_2</name>
 	<name>SHOTGUN</name>
 	<name>SHOTGUN_2</name>
-	<name>ION_SHOTGUN</name>
-	<name>ION_SHOTGUN_2</name>
+	<name>SHOTGUN_ION</name>
+	<name>SHOTGUN_ION_2</name>
 </blueprintList>
 
 

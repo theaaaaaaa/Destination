@@ -5054,10 +5054,6 @@
 <text name="weapon_LASER_BURST_1_short" language="pt">Laser Bás.</text>
 <text name="weapon_LASER_BURST_1_title" language="pt">Laser Defensor Mark I</text>
 <text name="weapon_LASER_BURST_1_tooltip" language="pt">Só um tiro; 1 de dano por tiro.</text>
-<text name="weapon_LASER_BURST_2_A_desc" language="pt">Laser simples de rajada. Não impressiona, porém funciona bem.</text>
-<text name="weapon_LASER_BURST_2_A_short" language="pt">Surto Laser I</text>
-<text name="weapon_LASER_BURST_2_A_title" language="pt">Surto Laser Mark I</text>
-<text name="weapon_LASER_BURST_2_A_tooltip" language="pt">Dispara 2 lasers com 1 de dano cada.</text>
 <text name="weapon_LASER_BURST_2_desc" language="pt">Laser duplo básico. Comum em naves de transporte que não comportam coisa melhor.</text>
 <text name="weapon_LASER_BURST_2_short" language="pt">Laser Duplo</text>
 <text name="weapon_LASER_BURST_2_title" language="pt">Laser Duplo</text>
@@ -5070,26 +5066,14 @@
 <text name="weapon_LASER_BURST_5_short" language="pt">S. Laser III</text>
 <text name="weapon_LASER_BURST_5_title" language="pt">Surto Laser Mark III</text>
 <text name="weapon_LASER_BURST_5_tooltip" language="pt">5 lasers; 1 de dano por disparo.</text>
-<text name="weapon_LASER_CHAINGUN_2_desc" language="pt">Esta arma laser demora para carregar, e a cada disparo recarrega mais rápido. Com o tempo, consegue derrubar qualquer escudo.</text>
-<text name="weapon_LASER_CHAINGUN_2_short" language="pt">Vulcan</text>
-<text name="weapon_LASER_CHAINGUN_2_title" language="pt">Multi Vulcan</text>
-<text name="weapon_LASER_CHAINGUN_2_tooltip" language="pt">Recarga acelera a cada disparo.</text>
-<text name="weapon_LASER_CHAINGUN_desc" language="pt">Laser de disparo duplo que recarrega mais rápido a cada tiro. Após 3 rajadas demora só 7 segundos para recarregar.</text>
-<text name="weapon_LASER_CHAINGUN_short" language="pt">M-laser</text>
-<text name="weapon_LASER_CHAINGUN_title" language="pt">Surto Multilaser</text>
-<text name="weapon_LASER_CHAINGUN_tooltip" language="pt">Dispara dois lasers; 1 de dano cada. Recarga mais rápida a cada tiro.</text>
-<text name="weapon_LASER_CHARGEGUN_2_desc" language="pt">Esta arma laser carrega diversas vezes e portanto recebe mais projéteis.</text>
-<text name="weapon_LASER_CHARGEGUN_2_short" language="pt">Carga II</text>
-<text name="weapon_LASER_CHARGEGUN_2_title" language="pt">Carga Laser Mark II</text>
-<text name="weapon_LASER_CHARGEGUN_2_tooltip" language="pt">Quanto mais esta arma carrega, mais tiros; no máximo 4.</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_desc" language="pt">Esta arma laser pode carregar 2 vezes e receber um projétil extra. Esta versão aprimorada consome apenas 1 de energia.</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_short" language="pt">Car. Las</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_title" language="pt">Carga Laser</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_tooltip" language="pt">Quanto mais esta arma carrega, mais tiros; no máximo 2.</text>
-<text name="weapon_LASER_CHARGEGUN_desc" language="pt">Esta arma laser pode carregar 2 vezes e receber um projétil extra.</text>
-<text name="weapon_LASER_CHARGEGUN_short" language="pt">Car Las</text>
-<text name="weapon_LASER_CHARGEGUN_title" language="pt">Carga Laser</text>
-<text name="weapon_LASER_CHARGEGUN_tooltip" language="pt">Quanto mais esta arma carrega, mais tiros; no máximo 2.</text>
+<text name="weapon_LASER_CHAIN_2_desc" language="pt">Esta arma laser demora para carregar, e a cada disparo recarrega mais rápido. Com o tempo, consegue derrubar qualquer escudo.</text>
+<text name="weapon_LASER_CHAIN_2_short" language="pt">Vulcan</text>
+<text name="weapon_LASER_CHAIN_2_title" language="pt">Multi Vulcan</text>
+<text name="weapon_LASER_CHAIN_2_tooltip" language="pt">Recarga acelera a cada disparo.</text>
+<text name="weapon_LASER_CHAIN_1_desc" language="pt">Laser de disparo duplo que recarrega mais rápido a cada tiro. Após 3 rajadas demora só 7 segundos para recarregar.</text>
+<text name="weapon_LASER_CHAIN_1_short" language="pt">M-laser</text>
+<text name="weapon_LASER_CHAIN_1_title" language="pt">Surto Multilaser</text>
+<text name="weapon_LASER_CHAIN_1_tooltip" language="pt">Dispara dois lasers; 1 de dano cada. Recarga mais rápida a cada tiro.</text>
 <text name="weapon_LASER_HEAVY_1_SP_desc" language="pt">Lasers pesados são mais destrutivos do que os lasers de surto. Esta versão modificada perfura 1 escudo.</text>
 <text name="weapon_LASER_HEAVY_1_SP_short" language="pt">Laser Perf.</text>
 <text name="weapon_LASER_HEAVY_1_SP_title" language="pt">Laser Perfurador Mark I</text>

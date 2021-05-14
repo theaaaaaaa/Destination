@@ -5054,10 +5054,6 @@
 <text name="weapon_LASER_BURST_1_short" language="de">AL I</text>
 <text name="weapon_LASER_BURST_1_title" language="de">Abwehrlaser I</text>
 <text name="weapon_LASER_BURST_1_tooltip" language="de">Nur ein Schuss, 1 Schaden pro Schuss.</text>
-<text name="weapon_LASER_BURST_2_A_desc" language="de">Dieser einfache Schnellfeuerlaser ist nicht besonders auffällig, aber er erfüllt seinen Zweck.</text>
-<text name="weapon_LASER_BURST_2_A_short" language="de">SFL I</text>
-<text name="weapon_LASER_BURST_2_A_title" language="de">Schnellfeuerlaser I</text>
-<text name="weapon_LASER_BURST_2_A_tooltip" language="de">Feuert 2 Laser, die je 1 Schaden verursachen.</text>
 <text name="weapon_LASER_BURST_2_desc" language="de">Doppelter Standardlaser. Wird oft von Transportern verwendet, die sich mehr nicht leisten können.</text>
 <text name="weapon_LASER_BURST_2_short" language="de">DSL</text>
 <text name="weapon_LASER_BURST_2_title" language="de">Doppelschusslaser</text>
@@ -5070,26 +5066,14 @@
 <text name="weapon_LASER_BURST_5_short" language="de">SFL III</text>
 <text name="weapon_LASER_BURST_5_title" language="de">Schnellfeuerlaser III</text>
 <text name="weapon_LASER_BURST_5_tooltip" language="de">Feuert 5 Laser ab, die je 1 Schaden verursachen.</text>
-<text name="weapon_LASER_CHAINGUN_2_desc" language="de">Diese Laserwaffe braucht lange, um aufzuwärmen. Jeder Schuss verringert die Abklingzeit, sodass sie irgendwann jede Schildmenge überwinden kann.</text>
-<text name="weapon_LASER_CHAINGUN_2_short" language="de">VK</text>
-<text name="weapon_LASER_CHAINGUN_2_title" language="de">Vulkankanone</text>
-<text name="weapon_LASER_CHAINGUN_2_tooltip" language="de">Die Abklingzeit sinkt, je mehr er feuert.</text>
-<text name="weapon_LASER_CHAINGUN_desc" language="de">Dieser Doppelschusslaser hat eine umso kürzere Abklingzeit, je mehr er feuert. Nach 3 Salven braucht er nur 7 Sekunden zum Nachladen.</text>
-<text name="weapon_LASER_CHAINGUN_short" language="de">LK</text>
-<text name="weapon_LASER_CHAINGUN_title" language="de">Laserkanone</text>
-<text name="weapon_LASER_CHAINGUN_tooltip" language="de">Feuert zwei Laser ab, die je 1 Schaden verursachen. Die Abklingzeit sinkt, je mehr er feuert.</text>
-<text name="weapon_LASER_CHARGEGUN_2_desc" language="de">Diese Laserwaffe kann mehrfach aufgeladen werden, wodurch sie zusätzliche Projektile erhält.</text>
-<text name="weapon_LASER_CHARGEGUN_2_short" language="de">LL II</text>
-<text name="weapon_LASER_CHARGEGUN_2_title" language="de">Laserlader II</text>
-<text name="weapon_LASER_CHARGEGUN_2_tooltip" language="de">Feuert mehr Schüsse ab, je länger sie auflädt, bis zu einem Maximum von 4.</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_desc" language="de">Diese Laserwaffe kann zweimal aufgeladen werden, wodurch sie ein zusätzliches Projektil erhält. Diese verbesserte Version benötigt nur 1 Energie.</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_short" language="de">LL</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_title" language="de">Laserlader</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_tooltip" language="de">Feuert mehr Schüsse ab, je länger sie auflädt, bis zu einem Maximum von 2.</text>
-<text name="weapon_LASER_CHARGEGUN_desc" language="de">Diese Laserwaffe kann zweimal aufgeladen werden, wodurch sie ein zusätzliches Projektil erhält.</text>
-<text name="weapon_LASER_CHARGEGUN_short" language="de">LL</text>
-<text name="weapon_LASER_CHARGEGUN_title" language="de">Laserlader</text>
-<text name="weapon_LASER_CHARGEGUN_tooltip" language="de">Feuert mehr Schüsse ab, je länger sie auflädt, bis zu einem Maximum von 2.</text>
+<text name="weapon_LASER_CHAIN_2_desc" language="de">Diese Laserwaffe braucht lange, um aufzuwärmen. Jeder Schuss verringert die Abklingzeit, sodass sie irgendwann jede Schildmenge überwinden kann.</text>
+<text name="weapon_LASER_CHAIN_2_short" language="de">VK</text>
+<text name="weapon_LASER_CHAIN_2_title" language="de">Vulkankanone</text>
+<text name="weapon_LASER_CHAIN_2_tooltip" language="de">Die Abklingzeit sinkt, je mehr er feuert.</text>
+<text name="weapon_LASER_CHAIN_1_desc" language="de">Dieser Doppelschusslaser hat eine umso kürzere Abklingzeit, je mehr er feuert. Nach 3 Salven braucht er nur 7 Sekunden zum Nachladen.</text>
+<text name="weapon_LASER_CHAIN_1_short" language="de">LK</text>
+<text name="weapon_LASER_CHAIN_1_title" language="de">Laserkanone</text>
+<text name="weapon_LASER_CHAIN_1_tooltip" language="de">Feuert zwei Laser ab, die je 1 Schaden verursachen. Die Abklingzeit sinkt, je mehr er feuert.</text>
 <text name="weapon_LASER_HEAVY_1_SP_desc" language="de">Schwere Laser verursachen mehr Schaden als ihre kleineren Schnellfeuer-Gegenstücke. Diese modifizierte Version durchdringt 1 Schild.</text>
 <text name="weapon_LASER_HEAVY_1_SP_short" language="de">SPL I</text>
 <text name="weapon_LASER_HEAVY_1_SP_title" language="de">Schwerer Powerlaser I</text>

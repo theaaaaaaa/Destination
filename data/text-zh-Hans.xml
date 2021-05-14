@@ -5053,10 +5053,6 @@
 <text name="weapon_LASER_BURST_1_short" language="zh-Hans">基本激光</text>
 <text name="weapon_LASER_BURST_1_title" language="zh-Hans">防御激光 I</text>
 <text name="weapon_LASER_BURST_1_tooltip" language="zh-Hans">只能发射一发，造成 1 点伤害。</text>
-<text name="weapon_LASER_BURST_2_A_desc" language="zh-Hans">这种简单的爆裂激光并不华丽，但够实用。</text>
-<text name="weapon_LASER_BURST_2_A_short" language="zh-Hans">爆裂激光 I</text>
-<text name="weapon_LASER_BURST_2_A_title" language="zh-Hans">爆裂激光 I</text>
-<text name="weapon_LASER_BURST_2_A_tooltip" language="zh-Hans">发射 2 束激光，各造成 1 点伤害。</text>
 <text name="weapon_LASER_BURST_2_desc" language="zh-Hans">基本的小威力双射激光。装不起更好的武器的运输舰通常会使用它。</text>
 <text name="weapon_LASER_BURST_2_short" language="zh-Hans">双射激光</text>
 <text name="weapon_LASER_BURST_2_title" language="zh-Hans">双射激光</text>
@@ -5069,26 +5065,14 @@
 <text name="weapon_LASER_BURST_5_short" language="zh-Hans">爆裂激光 III</text>
 <text name="weapon_LASER_BURST_5_title" language="zh-Hans">爆裂激光 III</text>
 <text name="weapon_LASER_BURST_5_tooltip" language="zh-Hans">发射 5 束激光，各造成 1 点伤害。</text>
-<text name="weapon_LASER_CHAINGUN_2_desc" language="zh-Hans">这种激光武器需要长时间预热。每次发射都会缩短冷却时间，最终能够击穿任何数量的护盾。</text>
-<text name="weapon_LASER_CHAINGUN_2_short" language="zh-Hans">火神炮</text>
-<text name="weapon_LASER_CHAINGUN_2_title" language="zh-Hans">链式火神炮</text>
-<text name="weapon_LASER_CHAINGUN_2_tooltip" language="zh-Hans">发射次数越多，冷却时间越短。</text>
-<text name="weapon_LASER_CHAINGUN_desc" language="zh-Hans">这种双射激光发射次数越多，冷却时间越短。在 3 次齐射后，它只需要 7 秒即可完成充能。</text>
-<text name="weapon_LASER_CHAINGUN_short" language="zh-Hans">链式激光</text>
-<text name="weapon_LASER_CHAINGUN_title" language="zh-Hans">链式爆裂激光</text>
-<text name="weapon_LASER_CHAINGUN_tooltip" language="zh-Hans">发射两束激光，各造成 1 点伤害。发射次数越多，冷却时间越短。</text>
-<text name="weapon_LASER_CHARGEGUN_2_desc" language="zh-Hans">这种离子武器可充能多次，从而发射多束激光。</text>
-<text name="weapon_LASER_CHARGEGUN_2_short" language="zh-Hans">充能激光 II</text>
-<text name="weapon_LASER_CHARGEGUN_2_title" language="zh-Hans">充能激光 II</text>
-<text name="weapon_LASER_CHARGEGUN_2_tooltip" language="zh-Hans">充能次数越多，发射次数越多，最多 4 次。</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_desc" language="zh-Hans">这种激光武器可充能两次，从而多发射一束激光。这种改进的版本只需要 1 格能量。</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_short" language="zh-Hans">充能激光</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_title" language="zh-Hans">充能激光</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_tooltip" language="zh-Hans">充能次数越多，发射次数越多，最多 2 次。</text>
-<text name="weapon_LASER_CHARGEGUN_desc" language="zh-Hans">这种激光武器可充能两次，从而多发射一束激光。</text>
-<text name="weapon_LASER_CHARGEGUN_short" language="zh-Hans">充能激光</text>
-<text name="weapon_LASER_CHARGEGUN_title" language="zh-Hans">充能激光</text>
-<text name="weapon_LASER_CHARGEGUN_tooltip" language="zh-Hans">充能次数越多，发射次数越多，最多 2 次。</text>
+<text name="weapon_LASER_CHAIN_2_desc" language="zh-Hans">这种激光武器需要长时间预热。每次发射都会缩短冷却时间，最终能够击穿任何数量的护盾。</text>
+<text name="weapon_LASER_CHAIN_2_short" language="zh-Hans">火神炮</text>
+<text name="weapon_LASER_CHAIN_2_title" language="zh-Hans">链式火神炮</text>
+<text name="weapon_LASER_CHAIN_2_tooltip" language="zh-Hans">发射次数越多，冷却时间越短。</text>
+<text name="weapon_LASER_CHAIN_1_desc" language="zh-Hans">这种双射激光发射次数越多，冷却时间越短。在 3 次齐射后，它只需要 7 秒即可完成充能。</text>
+<text name="weapon_LASER_CHAIN_1_short" language="zh-Hans">链式激光</text>
+<text name="weapon_LASER_CHAIN_1_title" language="zh-Hans">链式爆裂激光</text>
+<text name="weapon_LASER_CHAIN_1_tooltip" language="zh-Hans">发射两束激光，各造成 1 点伤害。发射次数越多，冷却时间越短。</text>
 <text name="weapon_LASER_HEAVY_1_SP_desc" language="zh-Hans">与其较小的同类武器爆裂激光相比，重型激光可造成更大的破坏。这种改良的版本可击穿 1 层护盾。</text>
 <text name="weapon_LASER_HEAVY_1_SP_short" language="zh-Hans">重型穿刺激光 I</text>
 <text name="weapon_LASER_HEAVY_1_SP_title" language="zh-Hans">重型穿刺激光 I</text>

@@ -5054,10 +5054,6 @@
 <text name="weapon_LASER_BURST_1_short" language="ru">Простой лазер</text>
 <text name="weapon_LASER_BURST_1_title" language="ru">Защитный лазер мод. I</text>
 <text name="weapon_LASER_BURST_1_tooltip" language="ru">Выпускает всего один импульс, наносящий 1 ед. урона.</text>
-<text name="weapon_LASER_BURST_2_A_desc" language="ru">Простой и лишенный изысков залповый лазер, который при этом прекрасно справляется со своей работой.</text>
-<text name="weapon_LASER_BURST_2_A_short" language="ru">Залп. лазер I</text>
-<text name="weapon_LASER_BURST_2_A_title" language="ru">Залповый лазер мод. I</text>
-<text name="weapon_LASER_BURST_2_A_tooltip" language="ru">Выпускает 2 импульса, наносящих по 1 ед. урона.</text>
 <text name="weapon_LASER_BURST_2_desc" language="ru">Пара простых маломощных лазеров. Типовое вооружение транспортных кораблей.</text>
 <text name="weapon_LASER_BURST_2_short" language="ru">Сдвоен. лазер</text>
 <text name="weapon_LASER_BURST_2_title" language="ru">Сдвоенный лазер</text>
@@ -5070,26 +5066,14 @@
 <text name="weapon_LASER_BURST_5_short" language="ru">Залп. лазер III</text>
 <text name="weapon_LASER_BURST_5_title" language="ru">Залповый лазер мод. III</text>
 <text name="weapon_LASER_BURST_5_tooltip" language="ru">Выпускает 5 импульсов, наносящих по 1 ед. урона.</text>
-<text name="weapon_LASER_CHAINGUN_2_desc" language="ru">Этому лазеру нужно немало времени на перезарядку, однако с каждым выстрелом процесс ускоряется, позволяя ему в итоге расправляться с любыми щитами.</text>
-<text name="weapon_LASER_CHAINGUN_2_short" language="ru">Вулкан</text>
-<text name="weapon_LASER_CHAINGUN_2_title" language="ru">«Вулкан» с разогревом</text>
-<text name="weapon_LASER_CHAINGUN_2_tooltip" language="ru">Интервал между выстрелами снижается в ходе стрельбы.</text>
-<text name="weapon_LASER_CHAINGUN_desc" language="ru">Время перезарядки этого сдвоенного лазера снижается в процессе стрельбы. После трех очередей оно составляет всего 7 секунд.</text>
-<text name="weapon_LASER_CHAINGUN_short" language="ru">Л./раз.</text>
-<text name="weapon_LASER_CHAINGUN_title" language="ru">Залп. лазер с разогревом</text>
-<text name="weapon_LASER_CHAINGUN_tooltip" language="ru">Выпускает 2 импульса, наносящих по 1 ед. урона. Интервал между выстрелами постепенно снижается по мере стрельбы.</text>
-<text name="weapon_LASER_CHARGEGUN_2_desc" language="ru">Данный лазер способен накапливать заряды, после чего выпускать их один за другим.</text>
-<text name="weapon_LASER_CHARGEGUN_2_short" language="ru">Н. лаз. II</text>
-<text name="weapon_LASER_CHARGEGUN_2_title" language="ru">Лазер с накопителем мод. II</text>
-<text name="weapon_LASER_CHARGEGUN_2_tooltip" language="ru">Накопив заряд, может сделать больше выстрелов (до 4).</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_desc" language="ru">Такой лазер способен накапливать удвоенный заряд, чтобы выпустить дополнительный импульс. Улучшенная модель потребляет всего 1 ед. энергии.</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_short" language="ru">Накоп. л.</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_title" language="ru">Лазер с накопителем</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_tooltip" language="ru">Накопив заряд, может сделать больше выстрелов (до 2).</text>
-<text name="weapon_LASER_CHARGEGUN_desc" language="ru">Такой лазер способен накапливать удвоенный заряд, чтобы выпустить дополнительный импульс.</text>
-<text name="weapon_LASER_CHARGEGUN_short" language="ru">Накоп. л.</text>
-<text name="weapon_LASER_CHARGEGUN_title" language="ru">Лазер с накопителем</text>
-<text name="weapon_LASER_CHARGEGUN_tooltip" language="ru">Накопив заряд, может сделать больше выстрелов (до 2).</text>
+<text name="weapon_LASER_CHAIN_2_desc" language="ru">Этому лазеру нужно немало времени на перезарядку, однако с каждым выстрелом процесс ускоряется, позволяя ему в итоге расправляться с любыми щитами.</text>
+<text name="weapon_LASER_CHAIN_2_short" language="ru">Вулкан</text>
+<text name="weapon_LASER_CHAIN_2_title" language="ru">«Вулкан» с разогревом</text>
+<text name="weapon_LASER_CHAIN_2_tooltip" language="ru">Интервал между выстрелами снижается в ходе стрельбы.</text>
+<text name="weapon_LASER_CHAIN_1_desc" language="ru">Время перезарядки этого сдвоенного лазера снижается в процессе стрельбы. После трех очередей оно составляет всего 7 секунд.</text>
+<text name="weapon_LASER_CHAIN_1_short" language="ru">Л./раз.</text>
+<text name="weapon_LASER_CHAIN_1_title" language="ru">Залп. лазер с разогревом</text>
+<text name="weapon_LASER_CHAIN_1_tooltip" language="ru">Выпускает 2 импульса, наносящих по 1 ед. урона. Интервал между выстрелами постепенно снижается по мере стрельбы.</text>
 <text name="weapon_LASER_HEAVY_1_SP_desc" language="ru">Тяжелые лазеры способны вызвать больше разрушений, чем их компактные залповые аналоги. Данная улучшенная модель пробивает 1 уровень щитов.</text>
 <text name="weapon_LASER_HEAVY_1_SP_short" language="ru">Тяж. щ/бой I</text>
 <text name="weapon_LASER_HEAVY_1_SP_title" language="ru">Тяж. лазер-щитобой мод. I</text>

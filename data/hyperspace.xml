@@ -1,6 +1,18 @@
 <FTL>
 
-<version>56</version>
+<version>71</version>
+
+<!-- Custom save file:
+
+With inheritMode, 0 forces inheriting the vanilla save file, 1 asks, and 2 forces a new file
+The prefix is the prefix of the save file name (e.g. ae_prof.sav would be ae)
+Ideally, the prefix should be unique for every mod with custom save files
+-->
+
+<saveFile>
+    <prefix>ds</prefix>
+    <inheritMode>0</inheritMode>
+</saveFile>
 
 <!-- Enables the game's built in infinite mode
 (found by ih8ih8sn0w)
@@ -66,6 +78,38 @@ This means that you can't get past defense drones easily anymore
 
 <hackingDroneFix enabled="true"/>
 
+
+<!--  Shows the power list of crew that are moused over
+Primarily useful for mods that add significant amounts of custom crew
+
+Ally: whether ally powers are displayed when mousing over crew
+Enemy: whether enemy powers are displayed when mousing over crew
+Rounding: the number of decimal places to show health to, e.g. rounding of 1 means you'll see numbers like "45.5"
+-->
+
+<advancedCrewTooltips enabled="true" ally="true" enemy="false" rounding="1"/>
+
+<!--  Shows the info box of equipment/crew that are moused over
+Perfect for mods that add lots of custom equipment and/or to reduce memorization in general
+-->
+
+<eventTooltips enabled="true"/>
+
+
+
+<!--  Shows the cooldown of weapons above their box
+Tends to be helpful when you have multiple sources of cooldown reduction
+-->
+
+<showNumericalWeaponCooldown enabled="false"/>
+
+<!--  Shows newly redesigned weapon tooltips with more info and (maybe) better organization
+Tends to be helpful with "weirder" weapons in mods due to having more clear information (e.g. separating hull/system/crew damage)
+-->
+
+<redesignedWeaponTooltips enabled="false"/>
+
+
 <!-- Custom title screen
 Changes the background and logo and moves the FTL logo slightly -->
 
@@ -83,6 +127,8 @@ If the chance attribute is set to 1 or above, every time the main menu is loaded
         <splashImage x="50" y="50" center="true" chance="1">img_secret</splashImage>
     </splashImages>
 </titleScreen> -->
+
+
 
 <titleScreen logo_x="862" logo_y="7" enabled="true">
 	
@@ -551,11 +597,14 @@ Syntax ->
 
 
 -->
-
 <events>
-	
+	<event name="CRAFTING_LOAD">
+		<loadEvent>CRAFTING</loadEvent>
+	</event>
+	<event name="WHATEVER">
+		<loadEvent>TEXT_OPTION</loadEvent>
+	</event>
 </events>
-
 <boss>
 	<crew>
 		<human room="0"/>

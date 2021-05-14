@@ -59,43 +59,37 @@ This doc is for alterate versions of the existing ships - outfitted with the new
 </blueprintList>
 
 <blueprintList name="OVERRIDE_WEAPONS_REBEL">
-	<name>LASER_ION_1</name>
-	<name>LASER_ION_2</name>
-	<name>LASER_ION_3</name>
+	<name>LASER_BURST_1_ION</name>
+	<name>LASER_BURST_2_ION</name>
+	<name>LASER_BURST_3_ION</name>
 	<name>LASER_ION_5</name>
-	<name>LASER_HEAVY_ION_1</name>
-	<name>LASER_HEAVY_ION_2</name>
+	<name>LASER_HEAVY_1_ION</name>
+	<name>LASER_HEAVY_2_ION</name>
 	<name>BEAM_1</name>
 	<name>BEAM_2</name>
 	<name>BOMB_1</name>
 	<name>ION_1</name>
 
-	<name>ION_SHOTGUN</name>
-	<name>LASER_CHAINGUN_ION</name>
-	<name>LASER_CHAINGUN_ION_2</name>
-	<name>ION_SHOTGUN_2</name>
+	<name>SHOTGUN_ION</name>
+	<name>LASER_CHAIN_1_ION</name>
+	<name>LASER_CHAIN_2_ION</name>
+	<name>SHOTGUN_ION_2</name>
 </blueprintList>
 
 <blueprintList name="OVERRIDE_WEAPONS_AUTO">
-	<name>LASER_ION_1</name>
-	<name>LASER_ION_2</name>
-	<name>LASER_ION_3</name>
-	<name>LASER_ION_5</name>
-	<name>LASER_HEAVY_ION_1</name>
-	<name>LASER_HEAVY_ION_2</name>
-	<name>BEAM_1</name>
-	<name>BEAM_2</name>
-	<name>BOMB_1</name>
-	<name>BOMB_FIRE</name>
-	<name>BOMB_ION</name>
+	<name>LASER_BURST_1_ION</name>
+	<name>LASER_BURST_2_ION</name>
+	<name>LASER_BURST_3_ION</name>
+	<name>LASER_HEAVY_1_ION</name>
+	<name>LASER_HEAVY_2_ION</name>
 	<name>ION_1</name>
 	<name>ION_2</name>
 	<name>ION_4</name>
 
-	<name>ION_SHOTGUN</name>
-	<name>LASER_CHAINGUN_ION</name>
-	<name>LASER_CHAINGUN_ION_2</name>
-	<name>ION_SHOTGUN_2</name>
+	<name>SHOTGUN_ION</name>
+	<name>LASER_CHAIN_1_ION</name>
+	<name>LASER_CHAIN_2_ION</name>
+	<name>SHOTGUN_ION_2</name>
 </blueprintList>
 
 <blueprintList name="OVERRIDE_WEAPONS_JELLY">
@@ -131,10 +125,10 @@ This doc is for alterate versions of the existing ships - outfitted with the new
 
 <blueprintList name="OVERRIDE_WEAPONS_MANTIS">
 	<name>LASER_BURST_1</name>
-	<name>LASER_BURST_2_A</name>
-	<name>LASER_ION_1</name>
-	<name>LASER_ION_2_A</name>
-	<name>LASER_HEAVY_ION_1</name>
+	<name>LASER_BURST_2</name>
+	<name>LASER_BURST_1_ION</name>
+	<name>LASER_BURST_2_ION_A</name>
+	<name>LASER_HEAVY_1_ION</name>
 	<name>BEAM_1</name>
 	<name>BEAM_2</name>
 	<name>BOMB_1</name>
@@ -144,15 +138,13 @@ This doc is for alterate versions of the existing ships - outfitted with the new
 	<name>BOMB_BREACH_2</name>
 
 	<name>ION_CHAINGUN</name>
-	<name>LASER_CHARGEGUN</name>
-	<name>LASER_CHARGEGUN_2</name>
 	<name>ION_STUN</name>
 	<name>BOMB_STUN</name>
 </blueprintList>
 
 <blueprintList name="OVERRIDE_WEAPONS_FED">
 	<name>LASER_BURST_1</name>
-	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_2</name>
 	<name>LASER_BURST_3</name>
 	<name>LASER_BURST_5</name>
 	<name>LASER_HEAVY_1</name>
@@ -167,7 +159,7 @@ This doc is for alterate versions of the existing ships - outfitted with the new
 	<name>BEAM_2</name>
 	<name>BOMB_1</name>
 	<name>SHOTGUN</name>
-	<name>LASER_CHAINGUN_2</name>
+	<name>LASER_CHAIN_2</name>
 	<name>ION_CHARGEGUN</name>
 	<name>ION_STUN</name>
 </blueprintList>
@@ -176,11 +168,11 @@ This doc is for alterate versions of the existing ships - outfitted with the new
 
 <blueprintList name="OVERRIDE_WEAPONS_CIRCLE">
 
-	<name>LASER_ION_1</name>
-	<name>LASER_ION_2_A</name>
-	<name>LASER_ION_3</name>
-	<name>LASER_HEAVY_ION_1</name>
-	<name>LASER_HEAVY_ION_2</name>
+	<name>LASER_BURST_1_ION</name>
+	<name>LASER_BURST_2_ION_A</name>
+	<name>LASER_BURST_3_ION</name>
+	<name>LASER_HEAVY_1_ION</name>
+	<name>LASER_HEAVY_2_ION</name>
 	<name>PIERCE_ION_1</name>
 	<name>PIERCE_ION_2</name>
 	<name>PIERCE_ION_4</name>
@@ -188,8 +180,8 @@ This doc is for alterate versions of the existing ships - outfitted with the new
 	<name>ION_2</name>
 	<name>ION_4</name>
 
-	<name>LASER_CHAINGUN_ION</name>
-	<name>LASER_CHAINGUN_ION_2</name>
+	<name>LASER_CHAIN_1_ION</name>
+	<name>LASER_CHAIN_1_ION_2</name>
 
 	<name>ION_CHAINGUN</name>
 	<name>ION_CHARGEGUN</name>
@@ -209,14 +201,14 @@ This doc is for alterate versions of the existing ships - outfitted with the new
 
 <blueprintList name="OVERRIDE_WEAPONS_ZOLTAN">   <!-- Unchanged -->
 	<name>LASER_BURST_1</name>
-	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_2</name>
 	<name>LASER_BURST_3</name>
 	<name>LASER_BURST_5</name>
 	<name>LASER_HEAVY_1</name>
 	<name>LASER_HEAVY_2</name>
-	<name>LASER_ION_1</name>
-	<name>LASER_ION_2_A</name>
-	<name>LASER_ION_3</name>
+	<name>LASER_BURST_1_ION</name>
+	<name>LASER_BURST_2_ION_A</name>
+	<name>LASER_BURST_3_ION</name>
 	<name>MISSILES_1</name>
 	<name>MISSILES_2</name>
 	<name>MISSILES_3</name>
@@ -229,18 +221,17 @@ This doc is for alterate versions of the existing ships - outfitted with the new
 	<name>ION_2</name>
 	<name>BOMB_1</name>
 	<name>BOMB_ION</name>
-	<name>BEAM_HULL</name>
 	<name>PIERCE_ION_1</name>
 	<name>PIERCE_ION_2</name>
 	<name>PIERCE_ION_4</name>
 
 	<name>SHOTGUN</name>
 	<name>SHOTGUN_2</name>
-	<name>ION_SHOTGUN</name>
-	<name>ION_SHOTGUN_2</name>
+	<name>SHOTGUN_ION</name>
+	<name>SHOTGUN_ION_2</name>
 	<name>ION_STUN</name>
-	<name>LASER_CHAINGUN</name>
-	<name>LASER_CHAINGUN_2</name>
+	<name>LASER_CHAIN_</name>
+	<name>LASER_CHAIN_2</name>
 </blueprintList>
 
 <!-- Unchanged
@@ -1122,7 +1113,7 @@ Overwritten player ships!
 	<weaponSlots>3</weaponSlots>
 	<droneSlots>3</droneSlots>
 	<weaponList count="1" missiles="0">
-		<weapon name="LASER_ION_2"/>
+		<weapon name="LASER_BURST_2_ION"/>
 	</weaponList>
 	<droneList count="1" drones="25">
 		<drone name="COMBAT_BEAM"/>
@@ -1264,7 +1255,7 @@ Overwritten player ships!
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
 	<weaponList count="1" missiles="1">
-		<weapon name="LASER_CHAINGUN_ION"/>
+		<weapon name="LASER_CHAIN_1_ION"/>
 	</weaponList>
 	<droneList drones="15"/>
 	<aug name="SLUG_GEL"/>

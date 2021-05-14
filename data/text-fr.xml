@@ -5054,10 +5054,6 @@
 <text name="weapon_LASER_BURST_1_short" language="fr">Laser basique</text>
 <text name="weapon_LASER_BURST_1_title" language="fr">Laser défensif Mk I</text>
 <text name="weapon_LASER_BURST_1_tooltip" language="fr">Un tir seulement, causant 1 de dégâts.</text>
-<text name="weapon_LASER_BURST_2_A_desc" language="fr">Ce laser n'est pas particulièrement beau, mais il fait le job.</text>
-<text name="weapon_LASER_BURST_2_A_short" language="fr">Laser raf.I</text>
-<text name="weapon_LASER_BURST_2_A_title" language="fr">Laser rafale Mk I</text>
-<text name="weapon_LASER_BURST_2_A_tooltip" language="fr">Tire 2 rayons laser causant 1 de dégâts chacun.</text>
 <text name="weapon_LASER_BURST_2_desc" language="fr">Lasers de base, extrêmement faibles mais couplés par deux. Souvent utilisés par les vaisseaux de transport ne pouvant pas acheter mieux.</text>
 <text name="weapon_LASER_BURST_2_short" language="fr">Laser double</text>
 <text name="weapon_LASER_BURST_2_title" language="fr">Laser double</text>
@@ -5070,26 +5066,14 @@
 <text name="weapon_LASER_BURST_5_short" language="fr">Laser raf. III</text>
 <text name="weapon_LASER_BURST_5_title" language="fr">Laser rafale Mk III</text>
 <text name="weapon_LASER_BURST_5_tooltip" language="fr">Tire 5 rayons laser causant 1 de dégâts chacun.</text>
-<text name="weapon_LASER_CHAINGUN_2_desc" language="fr">Ce canon laser a un temps de charge important, mais il se recharge de plus en plus vite en tirant et peut détruire un grand nombre de boucliers.</text>
-<text name="weapon_LASER_CHAINGUN_2_short" language="fr">Vulcain</text>
-<text name="weapon_LASER_CHAINGUN_2_title" language="fr">Canon Vulcain</text>
-<text name="weapon_LASER_CHAINGUN_2_tooltip" language="fr">Se recharge de plus en plus rapidement.</text>
-<text name="weapon_LASER_CHAINGUN_desc" language="fr">Ce laser à double tir se recharge de plus en plus rapidement. Au bout de 3 volées, il se recharge en 7 secondes seulement.</text>
-<text name="weapon_LASER_CHAINGUN_short" language="fr">Raf. ch.</text>
-<text name="weapon_LASER_CHAINGUN_title" language="fr">Laser à rafales enchaînées</text>
-<text name="weapon_LASER_CHAINGUN_tooltip" language="fr">Tire 2 lasers causant 1 de dégâts chacun, se recharge de plus en plus rapidement.</text>
-<text name="weapon_LASER_CHARGEGUN_2_desc" language="fr">Cette arme laser peut se charger à de multiples reprises pour tirer plusieurs projectiles.</text>
-<text name="weapon_LASER_CHARGEGUN_2_short" language="fr">Ch. las. II</text>
-<text name="weapon_LASER_CHARGEGUN_2_title" language="fr">Chargeur laser Mk II</text>
-<text name="weapon_LASER_CHARGEGUN_2_tooltip" language="fr">Plus il se charge, plus il peut tirer (4 tirs max).</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_desc" language="fr">Cette arme laser peut se charger à deux reprises, ce qui lui permet de tirer un projectile supplémentaire. La version améliorée consomme juste 1 de puissance.</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_short" language="fr">Ch. las.</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_title" language="fr">Chargeur laser</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_tooltip" language="fr">Plus il se charge, plus il peut tirer (2 tirs max).</text>
-<text name="weapon_LASER_CHARGEGUN_desc" language="fr">Cette arme laser peut se charger à deux reprises, ce qui lui permet de tirer un projectile supplémentaire.</text>
-<text name="weapon_LASER_CHARGEGUN_short" language="fr">Ch. las.</text>
-<text name="weapon_LASER_CHARGEGUN_title" language="fr">Chargeur laser</text>
-<text name="weapon_LASER_CHARGEGUN_tooltip" language="fr">Plus il se charge, plus il peut tirer (2 tirs max).</text>
+<text name="weapon_LASER_CHAIN_2_desc" language="fr">Ce canon laser a un temps de charge important, mais il se recharge de plus en plus vite en tirant et peut détruire un grand nombre de boucliers.</text>
+<text name="weapon_LASER_CHAIN_2_short" language="fr">Vulcain</text>
+<text name="weapon_LASER_CHAIN_2_title" language="fr">Canon Vulcain</text>
+<text name="weapon_LASER_CHAIN_2_tooltip" language="fr">Se recharge de plus en plus rapidement.</text>
+<text name="weapon_LASER_CHAIN_1_desc" language="fr">Ce laser à double tir se recharge de plus en plus rapidement. Au bout de 3 volées, il se recharge en 7 secondes seulement.</text>
+<text name="weapon_LASER_CHAIN_1_short" language="fr">Raf. ch.</text>
+<text name="weapon_LASER_CHAIN_1_title" language="fr">Laser à rafales enchaînées</text>
+<text name="weapon_LASER_CHAIN_1_tooltip" language="fr">Tire 2 lasers causant 1 de dégâts chacun, se recharge de plus en plus rapidement.</text>
 <text name="weapon_LASER_HEAVY_1_SP_desc" language="fr">Les lasers lourds causent bien plus de dégâts que les plus petits calibres. Cette version modifiée perfore 1 bouclier.</text>
 <text name="weapon_LASER_HEAVY_1_SP_short" language="fr">Perf. lourd I</text>
 <text name="weapon_LASER_HEAVY_1_SP_title" language="fr">Laser perforant lourd Mk I</text>

@@ -110,6 +110,14 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 
 <event name="START_BEACON_LANIUS">
 	<text load="START_BEACON_LANIUS"/>
+	<choice>
+		<text>Craft something</text>
+		<event load="CRAFTING_LOAD"/>
+	</choice>
+	<choice>
+		<text>Do nothing</text>
+		<event/>
+	</choice>
 </event>
 <textList name="START_BEACON_LANIUS">
 	<text id="text_START_BEACON_LANIUS_1"/>

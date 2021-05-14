@@ -5054,10 +5054,6 @@
 <text name="weapon_LASER_BURST_1_short" language="it">Laser I</text>
 <text name="weapon_LASER_BURST_1_title" language="it">Laser singolo</text>
 <text name="weapon_LASER_BURST_1_tooltip" language="it">Spara un colpo singolo che infligge 1 punto danno.</text>
-<text name="weapon_LASER_BURST_2_A_desc" language="it">Questa semplice scarica laser non è molto appariscente ma fa quel che deve.</text>
-<text name="weapon_LASER_BURST_2_A_short" language="it">Multi laser I</text>
-<text name="weapon_LASER_BURST_2_A_title" language="it">Multi laser I</text>
-<text name="weapon_LASER_BURST_2_A_tooltip" language="it">Spara 2 laser che infliggono 1 punto danno ciascuno.</text>
 <text name="weapon_LASER_BURST_2_desc" language="it">Una coppia di laser base. È un'arma piuttosto debole, spesso impiegata sui mercantili che non possono permettersi di meglio.</text>
 <text name="weapon_LASER_BURST_2_short" language="it">Laser II</text>
 <text name="weapon_LASER_BURST_2_title" language="it">Laser doppio</text>
@@ -5070,26 +5066,14 @@
 <text name="weapon_LASER_BURST_5_short" language="it">Multi laser III</text>
 <text name="weapon_LASER_BURST_5_title" language="it">Multi laser III</text>
 <text name="weapon_LASER_BURST_5_tooltip" language="it">Spara 5 laser, per 1 punto danno ciascuno.</text>
-<text name="weapon_LASER_CHAINGUN_2_desc" language="it">Quest'arma laser impiega molto tempo a riscaldarsi. Ogni volta che spara, la ricarica diminuisce, fino a permettergli di abbattere qualunque numero di scudi.</text>
-<text name="weapon_LASER_CHAINGUN_2_short" language="it">Vulcan</text>
-<text name="weapon_LASER_CHAINGUN_2_title" language="it">Vulcan</text>
-<text name="weapon_LASER_CHAINGUN_2_tooltip" language="it">Più spara, più la ricarica diminuisce.</text>
-<text name="weapon_LASER_CHAINGUN_desc" language="it">Più questo laser spara, più il suo tempo di ricarica diminuisce. Dopo 3 raffiche impiega solo 7 secondi a caricarsi.</text>
-<text name="weapon_LASER_CHAINGUN_short" language="it">Phaser</text>
-<text name="weapon_LASER_CHAINGUN_title" language="it">Phaser</text>
-<text name="weapon_LASER_CHAINGUN_tooltip" language="it">Spara 2 laser che infliggono 1 punto danno ciascuno. Più spara, più la ricarica diminuisce.</text>
-<text name="weapon_LASER_CHARGEGUN_2_desc" language="it">Quest'arma laser può caricarsi più volte, accumulando colpi aggiuntivi.</text>
-<text name="weapon_LASER_CHARGEGUN_2_short" language="it">Maser II</text>
-<text name="weapon_LASER_CHARGEGUN_2_title" language="it">Maser II</text>
-<text name="weapon_LASER_CHARGEGUN_2_tooltip" language="it">Più si carica più colpi spara, fino a un massimo di 4.</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_desc" language="it">Quest'arma laser può caricarsi due volte, ottenendo un proiettile aggiuntivo. Questa versione migliorata richiede solo 1 unità di potenza.</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_short" language="it">Maser I</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_title" language="it">Maser I</text>
-<text name="weapon_LASER_CHARGEGUN_PLAYER_tooltip" language="it">Più si carica più colpi spara, fino a un massimo di 2.</text>
-<text name="weapon_LASER_CHARGEGUN_desc" language="it">Quest'arma laser può caricarsi due volte, ottenendo un proiettile aggiuntivo.</text>
-<text name="weapon_LASER_CHARGEGUN_short" language="it">Maser I</text>
-<text name="weapon_LASER_CHARGEGUN_title" language="it">Maser I</text>
-<text name="weapon_LASER_CHARGEGUN_tooltip" language="it">Più si carica più colpi spara, fino a un massimo di 2.</text>
+<text name="weapon_LASER_CHAIN_2_desc" language="it">Quest'arma laser impiega molto tempo a riscaldarsi. Ogni volta che spara, la ricarica diminuisce, fino a permettergli di abbattere qualunque numero di scudi.</text>
+<text name="weapon_LASER_CHAIN_2_short" language="it">Vulcan</text>
+<text name="weapon_LASER_CHAIN_2_title" language="it">Vulcan</text>
+<text name="weapon_LASER_CHAIN_2_tooltip" language="it">Più spara, più la ricarica diminuisce.</text>
+<text name="weapon_LASER_CHAIN_1_desc" language="it">Più questo laser spara, più il suo tempo di ricarica diminuisce. Dopo 3 raffiche impiega solo 7 secondi a caricarsi.</text>
+<text name="weapon_LASER_CHAIN_1_short" language="it">Phaser</text>
+<text name="weapon_LASER_CHAIN_1_title" language="it">Phaser</text>
+<text name="weapon_LASER_CHAIN_1_tooltip" language="it">Spara 2 laser che infliggono 1 punto danno ciascuno. Più spara, più la ricarica diminuisce.</text>
 <text name="weapon_LASER_HEAVY_1_SP_desc" language="it">I laser pesanti possono scatenare molta più distruzione rispetto alle loro controparti più piccole. Questa versione modificata può penetrare 1 scudo.</text>
 <text name="weapon_LASER_HEAVY_1_SP_short" language="it">Driller I</text>
 <text name="weapon_LASER_HEAVY_1_SP_title" language="it">Driller I</text>
