@@ -808,8 +808,8 @@
 		<animSheet name="laser_burst_5" w="300" h="64" fw="25" fh="64">weapons/laser/laser_5_strip12.png</animSheet>
 		<animSheet name="laser_heavy_1" w="208" h="62" fw="26" fh="62">weapons/laser/laser_heavy_1_strip8.png</animSheet>
 		<animSheet name="laser_heavy_2" w="224" h="71" fw="28" fh="71">weapons/laser/laser_heavy_2_strip8.png</animSheet>
-		<animSheet name="LASER_HEAVY_1_ION" w="208" h="62" fw="26" fh="62">weapons/laser/LASER_HEAVY_1_ION_strip8.png</animSheet>
-		<animSheet name="LASER_HEAVY_2_ION" w="224" h="71" fw="28" fh="71">weapons/laser/LASER_HEAVY_2_ION_strip8.png</animSheet>
+		<animSheet name="laser_heavy_1_ion" w="208" h="62" fw="26" fh="62">weapons/laser/laser_heavy_1_ion_strip8.png</animSheet>
+		<animSheet name="laser_heavy_2_ion" w="224" h="71" fw="28" fh="71">weapons/laser/laser_heavy_2_ion_strip8.png</animSheet>
 	<!--
 		Animations
 	-->

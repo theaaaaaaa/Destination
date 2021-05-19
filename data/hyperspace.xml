@@ -601,9 +601,6 @@ Syntax ->
 	<event name="CRAFTING_LOAD">
 		<loadEvent>CRAFTING</loadEvent>
 	</event>
-	<event name="WHATEVER">
-		<loadEvent>TEXT_OPTION</loadEvent>
-	</event>
 </events>
 <boss>
 	<crew>

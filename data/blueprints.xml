@@ -681,11 +681,6 @@
 	SIMPLE LASERS 
  ************
 -->
-<!--
-************
-	SIMPLE LASERS 
- ************
--->
 	<weaponBlueprint name="LASER_BURST_1">  <!-- 1 shot 1power-->
 		<type>LASER</type>
 		<title id="weapon_LASER_BURST_1_title"/>
@@ -2568,7 +2563,7 @@
 		<missSounds>
 			<sound>miss</sound>
 		</missSounds>
-		<weaponArt>LASER_HEAVY_1_ION</weaponArt>
+		<weaponArt>laser_heavy_1_ion</weaponArt>
 		<iconImage>heavyL</iconImage>
 	</weaponBlueprint>
 

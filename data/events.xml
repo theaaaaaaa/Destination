@@ -3534,7 +3534,7 @@ Someone asks you to help them on a land-based combat mission, borrow the crewmem
 	<choice req="LASER_BURST_1">
 		<text> Craft your basic laser (note: You will get it back if you decide not to modify it) </text>
 		<event>
-			<text> You put your basic laser on the table... </text>
+			<text> You put your laser on the table... </text>
 			<remove name="LASER_BURST_1"/>
 			<choice hidden="true">
 				<text> Never mind - do something else </text>
@@ -3543,36 +3543,6 @@ Someone asks you to help them on a land-based combat mission, borrow the crewmem
 					<choice hidden="true">
 						<text> Continue... </text>
 						<event load="CRAFTING_LOAD"/>
-					</choice>
-				</event>
-			</choice>
-			<choice req="ION_1">
-				<text>(Ion effect) Add the ion effect to the laser (will increase charge time)</text>
-				<event>
-					<text> You add the effect to the weapon... </text>
-					<remove name="ION_1"/>
-					<choice hidden="true">
-						<text> Pick up the result </text>
-						<event>
-							<text> You pick up the resulting weapon. </text>
-							<weapon name="LASER_BURST_1_ION"/>
-							<event load="CRAFTING_LOAD"/>
-						</event>
-					</choice>
-				</event>
-			</choice>
-			<choice req="EFFECT_BIO">
-				<text>(Anti-bio effect) Add the bio effect to the laser (will increase charge time)</text>
-				<event>
-					<text> You add the effect to the weapon... </text>
-					<remove name="EFFECT_BIO"/>
-					<choice hidden="true">
-						<text> Pick up the result </text>
-						<event>
-							<text> You pick up the resulting weapon. </text>
-							<weapon name="LASER_BURST_1_BIO"/>
-							<event load="CRAFTING_LOAD"/>
-						</event>
 					</choice>
 				</event>
 			</choice>
@@ -3623,6 +3593,1318 @@ Someone asks you to help them on a land-based combat mission, borrow the crewmem
 			</choice>
 		</event>
 	</choice>
+	<choice req="LASER_BURST_1_ION">
+		<text> Craft your basic ion laser (note: You will get it back if you decide not to modify it) </text>
+		<event>
+			<text> You put your laser on the table... </text>
+			<remove name="LASER_BURST_1_ION"/>
+			<choice hidden="true">
+				<text> Never mind - do something else </text>
+				<event>
+					<weapon name="LASER_BURST_1_ION"/>
+					<choice hidden="true">
+						<text> Continue... </text>
+						<event load="CRAFTING_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_FIRE">
+				<text>(Fire effect) Add the fire effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_FIRE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_1_ION_FIRE"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_PIERCE">
+				<text>(Pierce effect) Add the pierce effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You add the effect to the weapon... </text>
+					<remove name="EFFECT_PIERCE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_1_ION_PIERCE"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_STUN">
+				<text>(Stun effect) Add the stun effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_STUN"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_1_ION_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LASER_BURST_1_PIERCE">
+		<text> Craft your basic pierce laser (note: You will get it back if you decide not to modify it) </text>
+		<event>
+			<text> You put your laser on the table... </text>
+			<remove name="LASER_BURST_1_PIERCE"/>
+			<choice hidden="true">
+				<text> Never mind - do something else </text>
+				<event>
+					<weapon name="LASER_BURST_1_PIERCE"/>
+					<choice hidden="true">
+						<text> Continue... </text>
+						<event load="CRAFTING_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_FIRE">
+				<text>(Fire effect) Add the fire effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_FIRE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_1_PIERCE_FIRE"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_STUN">
+				<text>(Stun effect) Add the stun effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_STUN"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_1_PIERCE_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LASER_BURST_1_ION_PIERCE">
+		<text> Craft your basic ion pierce laser (note: You will get it back if you decide not to modify it) </text>
+		<event>
+			<text> You put your laser on the table... </text>
+			<remove name="LASER_BURST_1_ION_PIERCE"/>
+			<choice hidden="true">
+				<text> Never mind - do something else </text>
+				<event>
+					<weapon name="LASER_BURST_1_ION_PIERCE"/>
+					<choice hidden="true">
+						<text> Continue... </text>
+						<event load="CRAFTING_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_FIRE">
+				<text>(Fire effect) Add the fire effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_FIRE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_1_ION_PIERCE_FIRE"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_STUN">
+				<text>(Stun effect) Add the stun effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_STUN"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_1_ION_PIERCE_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LASER_BURST_1_FIRE">
+		<text> Craft your basic fire laser (note: You will get it back if you decide not to modify it) </text>
+		<event>
+			<text> You put your laser on the table... </text>
+			<remove name="LASER_BURST_1_FIRE"/>
+			<choice hidden="true">
+				<text> Never mind - do something else </text>
+				<event>
+					<weapon name="LASER_BURST_1_FIRE"/>
+					<choice hidden="true">
+						<text> Continue... </text>
+						<event load="CRAFTING_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_PIERCE">
+				<text>(Pierce effect) Add the pierce effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_PIERCE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_1_PIERCE_FIRE"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_STUN">
+				<text>(Stun effect) Add the stun effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_STUN"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_1_FIRE_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LASER_BURST_1_ION_FIRE">
+		<text> Craft your basic ion fire laser (note: You will get it back if you decide not to modify it) </text>
+		<event>
+			<text> You put your laser on the table... </text>
+			<remove name="LASER_BURST_1_ION_FIRE"/>
+			<choice hidden="true">
+				<text> Never mind - do something else </text>
+				<event>
+					<weapon name="LASER_BURST_1_ION_FIRE"/>
+					<choice hidden="true">
+						<text> Continue... </text>
+						<event load="CRAFTING_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_PIERCE">
+				<text>(Pierce effect) Add the pierce effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_PIERCE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_1_ION_PIERCE_FIRE"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_STUN">
+				<text>(Stun effect) Add the stun effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_STUN"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_1_ION_FIRE_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LASER_BURST_1_STUN">
+		<text> Craft your basic stun laser (note: You will get it back if you decide not to modify it) </text>
+		<event>
+			<text> You put your laser on the table... </text>
+			<remove name="LASER_BURST_1_STUN"/>
+			<choice hidden="true">
+				<text> Never mind - do something else </text>
+				<event>
+					<weapon name="LASER_BURST_1_STUN"/>
+					<choice hidden="true">
+						<text> Continue... </text>
+						<event load="CRAFTING_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_FIRE">
+				<text>(Fire effect) Add the fire effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_FIRE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_1_FIRE_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_PIERCE">
+				<text>(Pierce effect) Add the pierce effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You add the effect to the weapon... </text>
+					<remove name="EFFECT_PIERCE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_1_PIERCE_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LASER_BURST_1_ION_STUN">
+		<text> Craft your basic ion stun laser (note: You will get it back if you decide not to modify it) </text>
+		<event>
+			<text> You put your laser on the table... </text>
+			<remove name="LASER_BURST_1_ION_STUN"/>
+			<choice hidden="true">
+				<text> Never mind - do something else </text>
+				<event>
+					<weapon name="LASER_BURST_1_ION_STUN"/>
+					<choice hidden="true">
+						<text> Continue... </text>
+						<event load="CRAFTING_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_FIRE">
+				<text>(Fire effect) Add the fire effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_FIRE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_1_ION_FIRE_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_PIERCE">
+				<text>(Pierce effect) Add the pierce effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You add the effect to the weapon... </text>
+					<remove name="EFFECT_PIERCE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_1_ION_PIERCE_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LASER_BURST_2">
+		<text> Craft your burst laser 1 (note: You will get it back if you decide not to modify it) </text>
+		<event>
+			<text> You put your laser on the table... </text>
+			<remove name="LASER_BURST_2"/>
+			<choice hidden="true">
+				<text> Never mind - do something else </text>
+				<event>
+					<weapon name="LASER_BURST_2"/>
+					<choice hidden="true">
+						<text> Continue... </text>
+						<event load="CRAFTING_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_FIRE">
+				<text>(Fire effect) Add the fire effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_FIRE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_2_FIRE"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_PIERCE">
+				<text>(Pierce effect) Add the pierce effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You add the effect to the weapon... </text>
+					<remove name="EFFECT_PIERCE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_2_PIERCE"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_STUN">
+				<text>(Stun effect) Add the stun effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_STUN"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_2_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LASER_BURST_2_ION">
+		<text> Craft your burst ion laser 1 (note: You will get it back if you decide not to modify it) </text>
+		<event>
+			<text> You put your laser on the table... </text>
+			<remove name="LASER_BURST_2_ION"/>
+			<choice hidden="true">
+				<text> Never mind - do something else </text>
+				<event>
+					<weapon name="LASER_BURST_2_ION"/>
+					<choice hidden="true">
+						<text> Continue... </text>
+						<event load="CRAFTING_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_FIRE">
+				<text>(Fire effect) Add the fire effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_FIRE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_2_ION_FIRE"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_PIERCE">
+				<text>(Pierce effect) Add the pierce effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You add the effect to the weapon... </text>
+					<remove name="EFFECT_PIERCE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_2_ION_PIERCE"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_STUN">
+				<text>(Stun effect) Add the stun effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_STUN"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_2_ION_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LASER_BURST_2_PIERCE">
+		<text> Craft your burst pierce laser 1 (note: You will get it back if you decide not to modify it) </text>
+		<event>
+			<text> You put your laser on the table... </text>
+			<remove name="LASER_BURST_2_PIERCE"/>
+			<choice hidden="true">
+				<text> Never mind - do something else </text>
+				<event>
+					<weapon name="LASER_BURST_2_PIERCE"/>
+					<choice hidden="true">
+						<text> Continue... </text>
+						<event load="CRAFTING_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_FIRE">
+				<text>(Fire effect) Add the fire effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_FIRE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_2_PIERCE_FIRE"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_STUN">
+				<text>(Stun effect) Add the stun effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_STUN"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_2_PIERCE_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LASER_BURST_2_ION_PIERCE">
+		<text> Craft your burst ion pierce laser 1 (note: You will get it back if you decide not to modify it) </text>
+		<event>
+			<text> You put your laser on the table... </text>
+			<remove name="LASER_BURST_2_ION_PIERCE"/>
+			<choice hidden="true">
+				<text> Never mind - do something else </text>
+				<event>
+					<weapon name="LASER_BURST_2_ION_PIERCE"/>
+					<choice hidden="true">
+						<text> Continue... </text>
+						<event load="CRAFTING_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_FIRE">
+				<text>(Fire effect) Add the fire effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_FIRE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_2_ION_PIERCE_FIRE"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_STUN">
+				<text>(Stun effect) Add the stun effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_STUN"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_2_ION_PIERCE_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LASER_BURST_2_FIRE">
+		<text> Craft your burst fire laser 1 (note: You will get it back if you decide not to modify it) </text>
+		<event>
+			<text> You put your laser on the table... </text>
+			<remove name="LASER_BURST_2_FIRE"/>
+			<choice hidden="true">
+				<text> Never mind - do something else </text>
+				<event>
+					<weapon name="LASER_BURST_2_FIRE"/>
+					<choice hidden="true">
+						<text> Continue... </text>
+						<event load="CRAFTING_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_PIERCE">
+				<text>(Pierce effect) Add the pierce effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_PIERCE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_2_PIERCE_FIRE"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_STUN">
+				<text>(Stun effect) Add the stun effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_STUN"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_2_FIRE_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LASER_BURST_2_ION_FIRE">
+		<text> Craft your burst ion fire laser 1 (note: You will get it back if you decide not to modify it) </text>
+		<event>
+			<text> You put your laser on the table... </text>
+			<remove name="LASER_BURST_2_ION_FIRE"/>
+			<choice hidden="true">
+				<text> Never mind - do something else </text>
+				<event>
+					<weapon name="LASER_BURST_2_ION_FIRE"/>
+					<choice hidden="true">
+						<text> Continue... </text>
+						<event load="CRAFTING_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_PIERCE">
+				<text>(Pierce effect) Add the pierce effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_PIERCE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_2_ION_PIERCE_FIRE"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_STUN">
+				<text>(Stun effect) Add the stun effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_STUN"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_2_ION_FIRE_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LASER_BURST_2_STUN">
+		<text> Craft your burst stun laser 1 (note: You will get it back if you decide not to modify it) </text>
+		<event>
+			<text> You put your laser on the table... </text>
+			<remove name="LASER_BURST_2_STUN"/>
+			<choice hidden="true">
+				<text> Never mind - do something else </text>
+				<event>
+					<weapon name="LASER_BURST_2_STUN"/>
+					<choice hidden="true">
+						<text> Continue... </text>
+						<event load="CRAFTING_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_FIRE">
+				<text>(Fire effect) Add the fire effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_FIRE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_2_FIRE_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_PIERCE">
+				<text>(Pierce effect) Add the pierce effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You add the effect to the weapon... </text>
+					<remove name="EFFECT_PIERCE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_2_PIERCE_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LASER_BURST_2_ION_STUN">
+		<text> Craft your burst ion stun laser 1 (note: You will get it back if you decide not to modify it) </text>
+		<event>
+			<text> You put your laser on the table... </text>
+			<remove name="LASER_BURST_2_ION_STUN"/>
+			<choice hidden="true">
+				<text> Never mind - do something else </text>
+				<event>
+					<weapon name="LASER_BURST_2_ION_STUN"/>
+					<choice hidden="true">
+						<text> Continue... </text>
+						<event load="CRAFTING_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_FIRE">
+				<text>(Fire effect) Add the fire effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_FIRE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_2_ION_FIRE_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_PIERCE">
+				<text>(Pierce effect) Add the pierce effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You add the effect to the weapon... </text>
+					<remove name="EFFECT_PIERCE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_2_ION_PIERCE_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LASER_BURST_3">
+		<text> Craft your burst laser 2 (note: You will get it back if you decide not to modify it) </text>
+		<event>
+			<text> You put your laser on the table... </text>
+			<remove name="LASER_BURST_3"/>
+			<choice hidden="true">
+				<text> Never mind - do something else </text>
+				<event>
+					<weapon name="LASER_BURST_3"/>
+					<choice hidden="true">
+						<text> Continue... </text>
+						<event load="CRAFTING_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_FIRE">
+				<text>(Fire effect) Add the fire effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_FIRE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_3_FIRE"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_PIERCE">
+				<text>(Pierce effect) Add the pierce effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You add the effect to the weapon... </text>
+					<remove name="EFFECT_PIERCE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_3_PIERCE"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_STUN">
+				<text>(Stun effect) Add the stun effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_STUN"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_3_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LASER_BURST_3_ION">
+		<text> Craft your burst ion laser 2 (note: You will get it back if you decide not to modify it) </text>
+		<event>
+			<text> You put your laser on the table... </text>
+			<remove name="LASER_BURST_3_ION"/>
+			<choice hidden="true">
+				<text> Never mind - do something else </text>
+				<event>
+					<weapon name="LASER_BURST_3_ION"/>
+					<choice hidden="true">
+						<text> Continue... </text>
+						<event load="CRAFTING_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_FIRE">
+				<text>(Fire effect) Add the fire effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_FIRE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_3_ION_FIRE"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_PIERCE">
+				<text>(Pierce effect) Add the pierce effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You add the effect to the weapon... </text>
+					<remove name="EFFECT_PIERCE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_3_ION_PIERCE"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_STUN">
+				<text>(Stun effect) Add the stun effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_STUN"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_3_ION_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LASER_BURST_3_PIERCE">
+		<text> Craft your burst pierce laser 2 (note: You will get it back if you decide not to modify it) </text>
+		<event>
+			<text> You put your laser on the table... </text>
+			<remove name="LASER_BURST_3_PIERCE"/>
+			<choice hidden="true">
+				<text> Never mind - do something else </text>
+				<event>
+					<weapon name="LASER_BURST_3_PIERCE"/>
+					<choice hidden="true">
+						<text> Continue... </text>
+						<event load="CRAFTING_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_FIRE">
+				<text>(Fire effect) Add the fire effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_FIRE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_3_PIERCE_FIRE"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_STUN">
+				<text>(Stun effect) Add the stun effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_STUN"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_3_PIERCE_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LASER_BURST_3_ION_PIERCE">
+		<text> Craft your burst ion pierce laser 2 (note: You will get it back if you decide not to modify it) </text>
+		<event>
+			<text> You put your laser on the table... </text>
+			<remove name="LASER_BURST_3_ION_PIERCE"/>
+			<choice hidden="true">
+				<text> Never mind - do something else </text>
+				<event>
+					<weapon name="LASER_BURST_3_ION_PIERCE"/>
+					<choice hidden="true">
+						<text> Continue... </text>
+						<event load="CRAFTING_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_FIRE">
+				<text>(Fire effect) Add the fire effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_FIRE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_3_ION_PIERCE_FIRE"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_STUN">
+				<text>(Stun effect) Add the stun effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_STUN"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_3_ION_PIERCE_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LASER_BURST_3_FIRE">
+		<text> Craft your burst fire laser 2 (note: You will get it back if you decide not to modify it) </text>
+		<event>
+			<text> You put your laser on the table... </text>
+			<remove name="LASER_BURST_3_FIRE"/>
+			<choice hidden="true">
+				<text> Never mind - do something else </text>
+				<event>
+					<weapon name="LASER_BURST_3_FIRE"/>
+					<choice hidden="true">
+						<text> Continue... </text>
+						<event load="CRAFTING_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_PIERCE">
+				<text>(Pierce effect) Add the pierce effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_PIERCE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_3_PIERCE_FIRE"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_STUN">
+				<text>(Stun effect) Add the stun effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_STUN"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_3_FIRE_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LASER_BURST_3_ION_FIRE">
+		<text> Craft your burst ion fire laser 2 (note: You will get it back if you decide not to modify it) </text>
+		<event>
+			<text> You put your laser on the table... </text>
+			<remove name="LASER_BURST_3_ION_FIRE"/>
+			<choice hidden="true">
+				<text> Never mind - do something else </text>
+				<event>
+					<weapon name="LASER_BURST_3_ION_FIRE"/>
+					<choice hidden="true">
+						<text> Continue... </text>
+						<event load="CRAFTING_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_PIERCE">
+				<text>(Pierce effect) Add the pierce effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_PIERCE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_3_ION_PIERCE_FIRE"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_STUN">
+				<text>(Stun effect) Add the stun effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_STUN"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_3_ION_FIRE_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LASER_BURST_3_STUN">
+		<text> Craft your burst stun laser 2 (note: You will get it back if you decide not to modify it) </text>
+		<event>
+			<text> You put your laser on the table... </text>
+			<remove name="LASER_BURST_3_STUN"/>
+			<choice hidden="true">
+				<text> Never mind - do something else </text>
+				<event>
+					<weapon name="LASER_BURST_3_STUN"/>
+					<choice hidden="true">
+						<text> Continue... </text>
+						<event load="CRAFTING_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_FIRE">
+				<text>(Fire effect) Add the fire effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_FIRE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_3_FIRE_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_PIERCE">
+				<text>(Pierce effect) Add the pierce effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You add the effect to the weapon... </text>
+					<remove name="EFFECT_PIERCE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_3_PIERCE_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LASER_BURST_3_ION_STUN">
+		<text> Craft your burst ion stun laser 2 (note: You will get it back if you decide not to modify it) </text>
+		<event>
+			<text> You put your laser on the table... </text>
+			<remove name="LASER_BURST_3_ION_STUN"/>
+			<choice hidden="true">
+				<text> Never mind - do something else </text>
+				<event>
+					<weapon name="LASER_BURST_3_ION_STUN"/>
+					<choice hidden="true">
+						<text> Continue... </text>
+						<event load="CRAFTING_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_FIRE">
+				<text>(Fire effect) Add the fire effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_FIRE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_3_ION_FIRE_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_PIERCE">
+				<text>(Pierce effect) Add the pierce effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You add the effect to the weapon... </text>
+					<remove name="EFFECT_PIERCE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_BURST_3_ION_PIERCE_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LASER_HEAVY_1">
+		<text> Craft your heavy laser 1 (note: You will get it back if you decide not to modify it) </text>
+		<event>
+			<text> You put your laser on the table... </text>
+			<remove name="LASER_HEAVY_1"/>
+			<choice hidden="true">
+				<text> Never mind - do something else </text>
+				<event>
+					<weapon name="LASER_HEAVY_1"/>
+					<choice hidden="true">
+						<text> Continue... </text>
+						<event load="CRAFTING_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_BIO">
+				<text>(Bio effect) Add the bio effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_BIO"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_HEAVY_1_BIO"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_FIRE">
+				<text>(Fire effect) Add the fire effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_FIRE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_HEAVY_1_FIRE"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_PIERCE">
+				<text>(Pierce effect) Add the pierce effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You add the effect to the weapon... </text>
+					<remove name="EFFECT_PIERCE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_HEAVY_1_PIERCE"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_STUN">
+				<text>(Stun effect) Add the stun effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_STUN"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_HEAVY_1_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="LASER_HEAVY_1_ION">
+		<text> Craft your heavy ion laser 1 (note: You will get it back if you decide not to modify it) </text>
+		<event>
+			<text> You put your ion laser on the table... </text>
+			<remove name="LASER_HEAVY_1_ION"/>
+			<choice hidden="true">
+				<text> Never mind - do something else </text>
+				<event>
+					<weapon name="LASER_HEAVY_1"/>
+					<choice hidden="true">
+						<text> Continue... </text>
+						<event load="CRAFTING_LOAD"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_BIO">
+				<text>(Bio effect) Add the bio effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_BIO"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_HEAVY_1_ION_BIO"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_FIRE">
+				<text>(Fire effect) Add the fire effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_FIRE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_HEAVY_1_ION_FIRE"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_PIERCE">
+				<text>(Pierce effect) Add the pierce effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You add the effect to the weapon... </text>
+					<remove name="EFFECT_PIERCE"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_HEAVY_1_ION_PIERCE"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="EFFECT_STUN">
+				<text>(Stun effect) Add the stun effect to the laser (will increase charge time)</text>
+				<event>
+					<text> You combine the two weapons. </text>
+					<remove name="EFFECT_STUN"/>
+					<choice hidden="true">
+						<text> Pick up the result </text>
+						<event>
+							<text> You pick up the resulting weapon. </text>
+							<weapon name="LASER_HEAVY_1_ION_STUN"/>
+							<event load="CRAFTING_LOAD"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	
+	
 </event>
 <event name="CRAFTING_EXTRACT">
 	<event/>
